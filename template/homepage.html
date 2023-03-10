@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- <link rel = "stylesheet" type = "text/css" href = "virtual-select.min.css"> -->
+  <link rel = 'stylesheet' type="text/css" href="css/style.css">
+  <link rel = 'stylesheet' type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css">
+  <link rel = 'stylesheet' type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css">
+  <link rel = "stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+  <link rel = "stylesheet" type="text/css" href = "css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="/static/css/homepage.css">
+
+</head>
+
+<body>
+  <!-- dropdown  -->
+  <div class = "container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> Twitter Watch ! </a>
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                accounts
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" id = "user_id" onclick="Update('taylorlorenz')"> taylorlorenz </a></li>
+                <li><a class="dropdown-item" id = "user_id" onclick="Update('cathiedwood')"> cathiedwood </a></li>
+                <li><a class="dropdown-item" id = "user_id" onclick="Update('ylecun')"> ylecun </a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+    <div class = "row">
+      <div class = "column" id = "active_account_id" >
+
+      </div>
+      <div class = "column" id ="high_active_id">
+
+      </div>
+
+    </div>
+    
+    <button onclick="Tweets()" id = 'custom_button' class = "input_button"> show tweets</button>
+    <div class = "row" id = "tweet_id" style="overflow-x:auto;"></div>
+
+    <button onclick="Replies()" id = 'custom_button' class = "input_button"> show replies</button>
+    <div class = "row" id = "reply_id" style="overflow-x:auto;"></div>
+
+    <button onclick="Sentiment()" id = 'custom_button' class = "input_button"> Sentiment Plot</button>
+    <div class = "row" id = "sentiment_id_tweets"></div>
+    <div class = "row" id = "sentiment_id_replies"></div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js"></script>
+  <script type="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>
+  <script type="text/javascript"  src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+</body>
+</html>
+
+
+<script type = "text/javascript" src = "/static/js/homepage.js"></script>
+

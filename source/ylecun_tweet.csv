@@ -1,0 +1,997 @@
+,date,user,conversation,replies number,likes number,rewteets number,cleaned_data,token_data,polarity,bert_sentiment,vader_sentiment
+0,2023-03-08 13:26:51+00:00,ylecun,"A new paper in @NoemaMag by @Jake_Browning00 and me (mostly Jake) on chatbots, social norms, and human expectations.",9,132,32,,,,,
+1,2023-03-07 00:06:52+00:00,ylecun,"Training robots to imitate behaviors with 1-minute demonstrations.
+From @LerrelPinto 's group at @nyuniversity",5,162,33,,,,,
+2,2023-03-06 18:57:08+00:00,ylecun,@augustwester Nice.,0,3,2,,,,,
+3,2023-03-06 15:42:32+00:00,ylecun,"@lizstocks @chris_jwala @pmarca I studied EE, specializing in VLSI design and control.
+I took a lot of math and physics.
+My PhD is in ""AI"" but did not involve studying what North-American universities consider the ""core"" of computer science (systems, algorithms, complexity theory, etc).",2,5,0,,,,,
+4,2023-03-06 15:35:55+00:00,ylecun,"New paper on VICReg-style self-supervised learning using information theory machinery.
+Main tricks: network is deterministic locally linear &amp; each training sample is seen as a Gaussian fuzzy ball.
+VICReg maximizes mutual_information[ representation(input), augmentation(input) ].",4,134,11,,,,,
+5,2023-03-06 01:33:41+00:00,ylecun,"@chris_jwala @pmarca My degree was in Electrical Engineering.
+I never actually studied computer science.
+Software technology changed radically in the 40 years since I graduated.
+Machine learning did not exist as a field when I did my PhD.",6,39,2,,,,,
+6,2023-03-05 22:18:53+00:00,ylecun,"@fauxdinger I have a NeurIPS paper with Seth Lloyd.
+Does that count?
+https://t.co/AaozOZsRhm",2,2,1,,,,,
+7,2023-03-05 22:13:09+00:00,ylecun,"That invited talk at COLT 2013 indirectly caused MobilEye to start using ConvNets for its driving assistance system.
+After hearing the talk, Shai Shalev-Schwartz started a sabbatical at MobilEye and convinced them to use ConvNets.
+
+Slides: https://t.co/LDiFQwPFu1",1,77,15,,,,,
+8,2023-03-05 21:53:44+00:00,ylecun,"@Sulla2389 @pmarca Not nearly as much as in the US.
+US-made drugs are N times less expensive in Europe than in the US.
+Why?
+European single-payer systems negotiate drug prices.
+The US has a law that *specifically* forbids Medicare from negotiating drug prices.
+That's corruption, plain &amp; simple.",1,36,1,,,,,
+9,2023-03-05 20:39:31+00:00,ylecun,"@pmarca . @erikbryn says the effect of a technological (r)evolution on productivity takes 15 to 20 years.
+But for AI, I'm not sure when to start counting.",8,54,4,,,,,
+10,2023-03-05 20:25:16+00:00,ylecun,@ArthurB @andrewgwils Marcello.,0,3,0,,,,,
+11,2023-03-05 16:05:16+00:00,ylecun,"@andrewgwils I get chills with a lot of Bach pieces.
+Oboe almost always does it for me.",4,22,1,,,,,
+12,2023-03-05 16:00:24+00:00,ylecun,Cute.,7,237,14,,,,,
+13,2023-03-05 15:50:21+00:00,ylecun,"@pmarca Your red/blue analysis is very US centric.
+Arguably, European social democracies have not seen such increases in education, healthcare, and childcare because *they regulate more* (not less).
+The US has done a *terrible* job at regulating these things in a half-ass way.
+2/2",11,177,8,,,,,
+14,2023-03-05 15:47:02+00:00,ylecun,"@pmarca AI certainly won't cause lasting unemployment.
+But technological evolutions displace jobs: the faster they take place, the more people are (temporarily) left behind because their skills are outdated for the new economy. Workforce retraining is of the essence.
+1/2",32,466,31,,,,,
+15,2023-03-05 15:34:32+00:00,ylecun,"@balazskegl Religions, like all superstitions, are a case of causal inference going haywire.
+Our desire to find causal explanations for everything drives us to invent causes for unexplained or unpredictible phenomena.
+But inventing all-powerful deities as causes violates Ockham's Razor.",4,7,0,,,,,
+16,2023-03-05 15:27:27+00:00,ylecun,"@balazskegl Hahaha, that is ironic indeed.",0,4,0,,,,,
+17,2023-03-05 15:23:47+00:00,ylecun,@msalbergo @DaniloJRezende @KyleCranmer @FrankNoeBerlin @wgrathwohl Very cool.,0,4,0,,,,,
+18,2023-03-05 15:15:21+00:00,ylecun,"@Roozbeh_Sanaei2 Which is why auto-regressive LLMs are a terrible model of thought.
+They do seem to be a good model of language fluency.
+AR-LLMs are like this tiny piece of the brain that controls speech production called the Broca area.
+What's missing is the entire prefrontal cortex.",1,3,0,,,,,
+19,2023-03-05 15:06:06+00:00,ylecun,@drorhilman No.,0,1,0,,,,,
+20,2023-03-04 20:37:19+00:00,ylecun,Nice explanation.,8,285,44,,,,,
+21,2023-03-04 03:58:41+00:00,ylecun,"@truesteel23 @MetaAI It exists. It's called PyTorch.
+And then there is this.
+https://t.co/59nR2Mdsrz",2,30,0,,,,,
+22,2023-03-04 03:55:35+00:00,ylecun,"@jackythirdy @MetaAI It's called Microsoft Research (MSR).
+It's been around since the mid 1990s and has done excellent work in many areas.",0,19,0,,,,,
+23,2023-03-04 03:53:36+00:00,ylecun,"@Tarun78354271 @MetaAI Apple has a long-held culture of extreme secrecy.
+Even internally.",0,20,0,,,,,
+24,2023-03-04 03:52:28+00:00,ylecun,"@pranesh @sunil_abraham @MetaAI Because DeepMind keeps insisting that they operate independently from Google, strangely.
+Googlers do not have access to DeepMind's code base nor buildings.",2,30,2,,,,,
+25,2023-03-04 02:47:57+00:00,ylecun,"True.
+Although I was directly involved in a tiny portion of the AI/ML/NN stuff open sourced by Meta.",5,133,9,,,,,
+26,2023-03-03 23:07:09+00:00,ylecun,"At @MetaAI we favor publication quality over quantity.
+That's why among the 100 most cited AI papers in 2022, @MetaAI has authored (or co-authored) 16, ranking 2nd just behind Google with 22.
+Our research is having a large impact on the community.
+
+(and NYU ranks nicely, too).",33,700,57,,,,,
+27,2023-03-03 22:57:01+00:00,ylecun,@govind_thattai @pkghosh99 Yes.,0,1,0,,,,,
+28,2023-03-03 22:55:55+00:00,ylecun,@conor_muldoon @yudapearl Penrose is wrong.,2,38,1,,,,,
+29,2023-03-03 21:47:36+00:00,ylecun,@EricSteinb The point is that their ability to do so is very limited.,1,1,0,,,,,
+30,2023-03-03 21:45:58+00:00,ylecun,"@yudapearl Indeed we do.
+And for that, they need to be able to learn causal models of the world that allows them to predict the consequences of their actions.
+This is a necessary component to the ability to reason and plan.",18,126,10,,,,,
+31,2023-03-03 21:41:55+00:00,ylecun,"@readmeye No.
+I'm just a rationalist.
+Because when magical thinking rules, people get hurt.
+Organized religions are the ones that do have a globalist agenda, though.",4,79,2,,,,,
+32,2023-03-03 21:34:47+00:00,ylecun,@IntuitMachine 1943.,1,21,1,,,,,
+33,2023-03-03 21:34:06+00:00,ylecun,"@pkghosh99 Transformers are not biologically inspired.
+But the ideas of differentiable associative memory (which transformers are based on), and dynamic routing (which transformers use) can be traced to neuroscience models of the hippocampus and perception.",1,18,1,,,,,
+34,2023-03-03 21:31:22+00:00,ylecun,@DavidBensh Not mentioning no hippocampus.,0,1,0,,,,,
+35,2023-03-03 21:31:02+00:00,ylecun,"@DavidBensh Yes, it's as if LLMs merely emulate the tiny areas of the brain concerned with language: the Broca and Wernicke areas, and are missing the entire prefrontal cortex.
+
+Without a PFC-like structure, LLMs have very superficial world models and very limited reasoning abilities.",3,8,0,,,,,
+36,2023-03-03 21:22:53+00:00,ylecun,@kelvindotchan Self-fulfilling superstition.,0,19,0,,,,,
+37,2023-03-03 21:13:52+00:00,ylecun,"@naivebaesian @yudapearl Touché!
+I wasn't joking about that part.",0,4,0,,,,,
+38,2023-03-03 18:45:23+00:00,ylecun,@naivebaesian @yudapearl My tweet literally says that I agree.,2,32,0,,,,,
+39,2023-03-03 18:03:22+00:00,ylecun,"&lt;joke&gt;
+When I hear ""AI needs causal inference and reasoning"",
+I can only agree.
+But then humans aren't particularly good at causal inference either.
+Otherwise astrology wouldn't be a thing.
+Neither would religion.
+&lt;/joke&gt;
+https://t.co/5Q9PXuFaU3",82,853,78,,,,,
+40,2023-03-03 17:57:40+00:00,ylecun,"@kevinqz 1. Thanks for the kind words.
+2. Not sure what you mean by constructivism.
+3. This is just a joke. No feelings being expressed. Just funny facts.
+4. If my motivation were to ""serve my ego"" I would have changed career many years ago when few people cared about my work.",0,10,0,,,,,
+41,2023-03-03 17:50:34+00:00,ylecun,"ConvNets are a decent model of how the ventral pathway of the human visual cortex works.
+But LLMs don't seem to be a good model of how humans process language.
+There longer-term prediction taking place in the brain.
+Awesome work by the Brain-AI group at FAIR-Paris.",26,716,110,,,,,
+42,2023-03-02 19:25:05+00:00,ylecun,@andrewdfeldman @pmarca Protections against Kremlin-sponsored troll farms have been in place on FB for about 6 years.,2,7,0,,,,,
+43,2023-03-02 19:22:43+00:00,ylecun,"Funny exchange after a public lecture:
+Lady: I'm using ChatGPT to produce horoscopes.
+Me: perfect application for a writing assistant that makes stuff up.
+Lady: hahaha, I agree!",59,2085,194,,,,,
+44,2023-03-01 23:16:12+00:00,ylecun,"@pmarca I drink one glass of good (i.e. French) wine with dinner.
+Occasionally more than one.
+One Cognac, Armagnac, or Whisky per week.",5,65,1,,,,,
+45,2023-03-01 14:19:36+00:00,ylecun,"@tunguz @verge The existence of these ""highly successful AI groups"" is precisely what makes the creation of this new product group possible.
+They are involved in it.",2,74,2,,,,,
+46,2023-02-28 21:28:33+00:00,ylecun,"@sa_mous @BrivaelLp @TopherBR @huggingface @ClementDelangue @julien_c @AntoineBordes @armandjoulin @syhw @EXGRV It's the other way around: tech companies are attracted by places with high concentration of talents.
+Talents are produced by top educational and research institutions.
+Then the ecosystem feeds on itself.",2,3,0,,,,,
+47,2023-02-28 21:24:41+00:00,ylecun,Discussion between colleagues == bidirectional human prompt engineering.,34,537,50,,,,,
+48,2023-02-28 17:07:34+00:00,ylecun,@abhijithneil Lack of understanding of the world by the LLM.,1,17,0,,,,,
+49,2023-02-28 17:05:23+00:00,ylecun,@SelfSupervisedL Clearly.,0,2,0,,,,,
+50,2023-02-28 17:05:08+00:00,ylecun,"@david_picard Human Feedback will certainly improve the reliability on common questions.
+But the distribution of questions has a very, very long tail.
+So HF alone will mitigate but not fix the problems.",1,23,0,,,,,
+51,2023-02-28 16:50:01+00:00,ylecun,"Yes, the need for prompt engineering is a sign of lack of understanding.
+No, scaling alone will not fix that.",35,357,45,,,,,
+52,2023-02-28 16:45:52+00:00,ylecun,"@davidwhogg Meta has a thing like that in-house called Rosetta.
+I think it's not open source because it's used for content moderation and openness facilitates circumvention.
+https://t.co/cJKMhOdye0",2,21,1,,,,,
+53,2023-02-27 13:44:09+00:00,ylecun,"Entities that throw our deepest thoughts back at us: a common theme in fiction, from Shakespeare's The Tempest, to the 1950's space opera Forbidden Planet, Tarkovsky's 1972 film Solaris, and several others after that.",7,147,21,,,,,
+54,2023-02-27 13:42:01+00:00,ylecun,"@CadeMetz Entities that throw our deepest thoughts back at us: a common theme in fiction, from Shakespeare's The Tempest, to the 1950's space opera Forbidden Planet, and Tarkovsky's 1972 film Solaris.",3,29,5,,,,,
+55,2023-02-26 17:05:14+00:00,ylecun,@PiR2_BA @lxbrun former FAIR-Paris engineering director and cofounder of Nabla.,1,7,0,,,,,
+56,2023-02-26 17:03:12+00:00,ylecun,"@artistexyz @JohnSmithNL83 I don't know who this Yann LeCunn is, but perhaps he and Gary Marcus got married since the last time the ChatGPT training set was collected.",1,0,0,,,,,
+57,2023-02-26 15:25:06+00:00,ylecun,"@Graverman__ @DrTBehrens @bindureddy Open-sourcing is very much Meta's DNA.
+But there are few things that large companies care more about than bad press and attack on their reputation.",1,2,0,,,,,
+58,2023-02-26 15:23:09+00:00,ylecun,"@egrefen I know, I know.
+But one shouldn't waste a bad joke by letting it stand without responding with a teaching moment.",0,4,0,,,,,
+59,2023-02-26 15:14:56+00:00,ylecun,"@FelixHill84 Well, actually, in most countries at the time, books could not be published without the king's approval.
+So there was a form of RLHF: Royal Legislative Human Feedback.",6,74,0,,,,,
+60,2023-02-26 15:10:07+00:00,ylecun,"@rao2z Haha!
+We already knew you were on ChatGPT for its fantastic reasoning abilities.",1,17,0,,,,,
+61,2023-02-26 14:16:16+00:00,ylecun,"@BrivaelLp @TopherBR @huggingface @ClementDelangue @julien_c FAIR-Paris has brought French scientists from the US back to Paris, such as @AntoineBordes , @armandjoulin , @syhw , @EXGRV and others.
+It also attracted scientists from all over Europe to Paris, and gave the opportunity to many young French scientists to stay in France.",1,44,2,,,,,
+62,2023-02-26 14:07:59+00:00,ylecun,"- A number of them went through École Polytechnique and ENS, but not all.
+- A big chunk went through the MVA (Master Vision Apprentissage at ENS Cachan).
+- And a bunch of them did are (or are still doing) their PhD as resident students at FAIR-Paris under the CIFRE system.",8,97,9,,,,,
+63,2023-02-26 13:59:24+00:00,ylecun,"@egrefen No GPUs in 1988.
+We ran our OCR demos on DSP cards.
+And we eventually bought a large parallel machine from Intel (i860 based IIRC). But the software sucked and it became an expensive doorstop.",2,15,0,,,,,
+64,2023-02-26 13:54:58+00:00,ylecun,Almost all the members of the LLaMA team are located at FAIR-Paris.,15,397,27,,,,,
+65,2023-02-26 13:43:41+00:00,ylecun,"@neilturkewitz @EMostaque @bindureddy Indeed.
+But then again, if people had not listened so much to the critics of nuclear energy in the 1970s, we may not have as much of a climate change problem to deal with.",5,67,3,,,,,
+66,2023-02-26 02:14:43+00:00,ylecun,"When I asked my boss what the story was, he said:
+""At Bell Labs, you don't get famous by saving money!""",10,262,6,,,,,
+67,2023-02-26 02:12:58+00:00,ylecun,"During my postdoc at U of Toronto in 87/88 the CS dept received a new Sun4 shared by students and faculty.
+Before I moved to Bell Labs, my future boss asked me what computer I wanted. I said ""the Sun-4 is great""
+When I arrived, I had a Sun4 JUST FOR ME!
+LeNet was trained on it.",8,401,13,,,,,
+68,2023-02-25 20:06:26+00:00,ylecun,"@bindureddy Because last time we made an LLM available to everyone (Galactica, designed to help scientists write scientific papers), people threw vitriol at our face and told us this was going to destroy the fabric of society.",49,269,18,,,,,
+69,2023-02-25 19:28:01+00:00,ylecun,"@codewithmate Ian GoodDawg invented the G Adversarial Note, but MC S claims he invented all A-G Adversarial Chords in 1991.",1,5,0,,,,,
+70,2023-02-25 19:18:57+00:00,ylecun,@HeiKo51112349 It would never get through peer review.,0,3,0,,,,,
+71,2023-02-25 14:29:05+00:00,ylecun,"@JohnSmithNL83 As I have said numerous times over the last few months, hallucinations are an inevitable property of auto-regressive LLMs.
+That's not a major problem if you use them as writing aids or for entertainment purposes.
+Making them factual and controllable will require a major redesign.",5,42,6,,,,,
+72,2023-02-25 14:17:05+00:00,ylecun,@francoisfleuret The 13B model runs on a single high-end GPU.,1,14,0,,,,,
+73,2023-02-25 14:16:16+00:00,ylecun,@StillTr05207382 The 13B model can run on a single high-end GPU.,0,1,0,,,,,
+74,2023-02-25 13:05:02+00:00,ylecun,"- People will learn to better trace the provenance &amp; assess the reliability of what they see &amp; hear, most likely with the help of new technology.
+- Current auto-regressive LLMs are famously uncontrollable, but new AI systems will be controllable, factual &amp; non toxic when desired.",31,238,25,,,,,
+75,2023-02-25 13:04:48+00:00,ylecun,"@ericschmidt - People will learn to better trace the provenance &amp; assess the reliability of what they see &amp; hear, most likely with the help of new technology.
+- Current auto-regressive LLMs are famously uncontrollable, but new AI systems will be controllable, factual &amp; non toxic when desired.",23,127,12,,,,,
+76,2023-02-25 12:50:59+00:00,ylecun,Applies to all domains.,6,106,7,,,,,
+77,2023-02-24 22:13:38+00:00,ylecun,"Generated by LLaMA.
+(prompt in bold).
+
+See appendix of the LLaMA paper: https://t.co/0y2o2zTcqv https://t.co/wnYx7KobdV",63,728,58,,,,,
+78,2023-02-24 22:02:35+00:00,ylecun,"@ESYudkowsky Your guess is indeed blind and hence wrong.
+Particularly on the whole ""Meta has no people competent to do the tricky stuff...""
+Regardless, the difference between LLaMA and ChatGPT is fine tuning through human feedback
+It's expensive &amp; time consuming, but not particularly tricky.",26,322,6,,,,,
+79,2023-02-24 21:54:14+00:00,ylecun,"@aindrei @BlancheMinerva That's false.
+Linux is under the GPL and everyone ""touches"" it.",1,29,0,,,,,
+80,2023-02-24 21:50:32+00:00,ylecun,"@NinaDSchick Here it is: 🤣🤣🤣
+[and this is merely the first laugh]",1,8,0,,,,,
+81,2023-02-24 20:31:19+00:00,ylecun,Blog post: https://t.co/zDA9h0VbHF,6,88,12,,,,,
+82,2023-02-24 20:22:37+00:00,ylecun,"@BlancheMinerva The code is licensed under the GPLv3, which permits commercial use.",8,54,1,,,,,
+83,2023-02-24 20:20:33+00:00,ylecun,@phillipburch GPLv3 permits commercial use.,2,7,0,,,,,
+84,2023-02-24 20:19:55+00:00,ylecun,@shockrobortyy GPLv3 permits commercial use.,3,15,0,,,,,
+85,2023-02-24 18:56:41+00:00,ylecun,Annoucement from the LLaMA's mouth.,7,125,17,,,,,
+86,2023-02-24 18:53:25+00:00,ylecun,https://t.co/Z5yftjwytT,5,103,8,,,,,
+87,2023-02-24 18:49:50+00:00,ylecun,Some results from the paper. https://t.co/PPPa9p8KyB,2,70,7,,,,,
+88,2023-02-24 18:44:36+00:00,ylecun,"LLaMA is a collection of foundation LLMs from 7B to 65B parameters.
+They have been trained on trillions of tokens from publicly available datasets
+- LLaMA-13B outperforms GPT-3 (175B) on most benchmarks
+- LLaMA-65B is competitive with the best models, Chinchilla70B and PaLM-540B",6,220,20,,,,,
+89,2023-02-24 18:42:01+00:00,ylecun,"LLaMA is a new *open-source*, high-performance large language model from Meta AI - FAIR.
+
+Meta is committed to open research and releases all the models the research community under a GPL v3 license.
+
+- Paper: https://t.co/c2CJwpRcSL
+- Github: https://t.co/fGCkA9Mol0",96,2470,450,,,,,
+90,2023-02-24 07:43:46+00:00,ylecun,@ShaidaSherpao @pmarca Because it's harder to produce stuff that works than stuff that doesn't.,1,8,0,,,,,
+91,2023-02-24 03:35:38+00:00,ylecun,"@michael_at_work @OuahabiAdnane I prefer the Lisp version:
+(want 'People 'Python)",1,5,0,,,,,
+92,2023-02-24 03:32:13+00:00,ylecun,@SamForman979 @pmarca Hehe,7,24,2,,,,,
+93,2023-02-24 02:40:50+00:00,ylecun,"@mark94v1 @ziv_ravid Not too late.
+One of my PhD students started her PhD in her late 20s after an undergrad degree in philosophy.
+She now runs a big chunk of DeepMind.",0,4,0,,,,,
+94,2023-02-24 02:34:10+00:00,ylecun,"@pmarca Well, but there is a better way than RLHF-tuned auto-regressive LLMs....",10,44,5,,,,,
+95,2023-02-23 23:25:37+00:00,ylecun,"@percyliang Yes. I think RLHF is hopeless because the space of wrong answers is very large, and the space of tricky questions has a very long tail.",5,161,16,,,,,
+96,2023-02-23 20:46:15+00:00,ylecun,@ziv_ravid Happens all the time 🤣,0,24,0,,,,,
+97,2023-02-23 13:26:45+00:00,ylecun,"@vinodgansan Actually, the first implementations of neural nets on GPUs are from Patrice Simard's group at Microsoft around 2005-2006.
+https://t.co/fye5HmJcrm",0,4,0,,,,,
+98,2023-02-23 13:18:26+00:00,ylecun,"@SebastianSeung They are available, but my web server has a configuration issue.
+The password only shows up with https on Chrome, for some reason.
+If you use http (no s) or another browser, there is no issue.",4,33,1,,,,,
+99,2023-02-23 13:16:27+00:00,ylecun,"@GaryMarcus Errrrr, Lisp was my main programming language from 1987 to 2010.
+It was a home-grown Lisp interpreter/compiler that Léon Bottou and I wrote as a front-end to our neural net simuator SN, later open-sourced as Lush.
+Not sure what your point/joke is about.
+https://t.co/3yRKkuK4kI",4,29,2,,,,,
+100,2023-02-22 20:04:18+00:00,ylecun,"If using Lisp as a front-end language to a deep learning system is ""neuro-symbolic"" then, I've doing neuro-symbolic stuff since 1987 😅
+https://t.co/3yRKkuK4kI",17,154,14,,,,,
+101,2023-02-22 13:45:53+00:00,ylecun,@eulerfx Might have been a good idea.,2,25,0,,,,,
+102,2023-02-22 13:45:29+00:00,ylecun,"Even hotter take: the fact that ML and Computer Vision researchers were largely using Matlab *held back progress for years*, mostly because implementing something like a ConvNet in 2005 Matlab would have been a total nightmare.",52,1341,105,,,,,
+103,2023-02-22 13:40:15+00:00,ylecun,"@mansantillan @vslira1 I certainly didn't forget about Lisp.
+My main Deep Learning framework used a Lisp front-end until about 2010.
+https://t.co/3yRKkuK4kI
+
+Then we switched to Torch7, which used Lua as a front-end.",1,15,1,,,,,
+104,2023-02-22 13:35:48+00:00,ylecun,"@OuahabiAdnane We used Lua initially and started implementing a compiler for it.
+But engineers hated it.
+There were 3 other reasons to switch to Python:
+1. People want Python
+2. People want Python
+3. People want Python",36,445,15,,,,,
+105,2023-02-22 13:32:52+00:00,ylecun,@yacineMTB We actually thought about JavaScript when we were trying to figure out what DL platform to use in the early days of FAIR.,3,31,0,,,,,
+106,2023-02-22 13:31:49+00:00,ylecun,@vslira1 Touché,1,48,0,,,,,
+107,2023-02-22 13:31:35+00:00,ylecun,@claycurry_ Never. I positively hate Matlab. I managed to never use it.,4,373,18,,,,,
+108,2023-02-22 13:27:44+00:00,ylecun,"Hotter take: ML would have advanced faster if another front-end language had been available and widely adopted instead of Python.
+One that is interactive yet fast &amp; compilable, multithreaded (no GIL), isn't bloated, doesn't care about white spaces,...
+E.g. Julia or some Lisp.",354,3595,421,,,,,
+109,2023-02-22 13:18:15+00:00,ylecun,"Learning to verify AI-generated code.
+From @MetaAI",3,146,23,,,,,
+110,2023-02-21 08:42:03+00:00,ylecun,"@TheAssetLad Looks interesting.
+But I haven't written anything with it.",0,2,0,,,,,
+111,2023-02-21 08:31:07+00:00,ylecun,@_rockt Cool!,0,3,1,,,,,
+112,2023-02-21 08:19:17+00:00,ylecun,"@RMajdoddin @amitmate2010 @AlanMorte @OpenAI No.
+Meta released the *control* of PyTorch to the Linux Foundation.
+That's a Good Thing.
+Meta certainly didn't ""give up"" PyTorch, still being by far the largest contributor to it and a major user of it for research, development, and production.",1,2,0,,,,,
+113,2023-02-21 08:10:59+00:00,ylecun,Is it really surprising that a chatbot trained on human dialogues that are subject to Godwin's Law will itself abide by Godwin's Law and compare its interlocutor to Hitler when the conversation heats up?,40,294,41,,,,,
+114,2023-02-20 19:39:25+00:00,ylecun,"@npparikh ML is a set of methods for data science, among others.
+Others include statistics, various fields of applied math, signal processing, computer vision, NLP, visualization, data management, DL, AI (broadly speaking), etc....
+And then there is how you apply this to various fields.",0,3,0,,,,,
+115,2023-02-20 19:31:16+00:00,ylecun,"@KinasRemek Way earlier.
+Synertec VIM-1 / SYM-1
+https://t.co/ujlcAC4HpO",1,1,0,,,,,
+116,2023-02-20 19:27:41+00:00,ylecun,"@npparikh Data Science = deriving knowledge from data with the help of computers, statistics, and mathematics.",1,2,0,,,,,
+117,2023-02-20 17:08:10+00:00,ylecun,"@togelius Clearly, there are generative models that are not used to ""generate"" anything complicated.
+For example, any classifier that uses Bayes rule P(y|x) = P(x|y)P(y) / P(x).
+The P(x|y) model is generative.",3,52,2,,,,,
+118,2023-02-20 17:01:31+00:00,ylecun,"The NYU Center for Data Science was announced 10 years ago today.
+
+In 10 years, NYU CDS has grown tremendously and now essentially operates as a department, with PhD &amp; Masters degree programs, as well as undergraduate majors and minors in Data Science.
+
+https://t.co/7prLJJuEEf",5,88,7,,,,,
+119,2023-02-20 15:09:28+00:00,ylecun,"OK, I lied. #1 was not assembly but 6502 hexadecimal machine code.",9,120,0,,,,,
+120,2023-02-20 15:03:27+00:00,ylecun,"@amaralibey @togelius No. If the model doesn't produce *observed* variables, it's not generative.
+Embeddings are hidden.",0,7,0,,,,,
+121,2023-02-20 15:02:07+00:00,ylecun,"@togelius You could.
+In that case, ""generative"" would not just characterize the architecture but the combination of the architecture and the inference procedure.
+It's like a graphical model / factor graphs: you infer the unknown variables by finding the value that maximizes the likelihood.",0,10,0,,,,,
+122,2023-02-20 14:48:10+00:00,ylecun,"@Nicolas99848452 @wangilisasi Caffe was written at UC Berkeley in C++, inspired from Lush (our DL framework with Lisp front-end).
+Caffe2 was written in C++ to run neural nets in production at FB.
+But most people at FAIR were using Torch (with the Lua front-end).
+Eventually, we all standardized on PyTorch.",1,4,0,,,,,
+123,2023-02-20 14:28:05+00:00,ylecun,"@the_dmoti No, thank you.",0,1,0,,,,,
+124,2023-02-20 14:27:50+00:00,ylecun,@taneemishere Good point.,0,1,0,,,,,
+125,2023-02-20 14:22:43+00:00,ylecun,"@McAllesterDavid @nlpnoah Our hippocampus can store a lot more than 4096 tokens, though.",0,2,1,,,,,
+126,2023-02-20 14:06:08+00:00,ylecun,"@togelius It has already happened with cartoons.
+Try getting any of the original Tex Avery cartoons from the 40s and 50s.",2,12,1,,,,,
+127,2023-02-20 14:04:19+00:00,ylecun,"@togelius Joint Embedding Architectures (e.g. Siamese nets) are non generative.
+They can capture dependencies between x and y but cannot ""generate"" y from x, and certainly cannot provide an estimate p(y|x).
+Almost all successful SSL methods in image recognition use JEA or JEPA.",5,125,5,,,,,
+128,2023-02-20 04:52:16+00:00,ylecun,"@Arian_Khorasani We were using a Lisp interpreter/compiler that we wrote as an interactive front-end language to our neural net simulator.
+https://t.co/3yRKkuK4kI",2,11,0,,,,,
+129,2023-02-20 04:48:51+00:00,ylecun,@wangilisasi Never had any use for it.,2,17,0,,,,,
+130,2023-02-20 04:45:03+00:00,ylecun,@jasonfi There was nothing else I could afford in 1977.,2,91,1,,,,,
+131,2023-02-20 04:42:17+00:00,ylecun,"@MrSteph8 No, not really.",0,6,1,,,,,
+132,2023-02-20 04:41:24+00:00,ylecun,@tweet_prat Nope.,0,2,0,,,,,
+133,2023-02-20 04:41:11+00:00,ylecun,"@TonyZador @patrickmineault I don't think it's worth storing in the genome.
+Any unsupervised learning procedure can learn V1-style oriented edge detectors within minutes.",1,4,0,,,,,
+134,2023-02-20 04:39:11+00:00,ylecun,"@KnutarMike Oh yeah, I taught myself to design CMOS digital circuits in high school, before programming.",2,10,0,,,,,
+135,2023-02-20 04:28:00+00:00,ylecun,"Oh, I forgot Prolog, somewhere between Pascal and Forth.",11,82,2,,,,,
+136,2023-02-20 04:25:58+00:00,ylecun,My favorite: Lisp.,20,137,7,,,,,
+137,2023-02-20 04:21:58+00:00,ylecun,"@MrSteph8 During the DjVu project, in the late 1990s, we had scanned, compressed, &amp; OCRed collections of books, such as the NIPS proceedings.
+We wanted to distribute that on CDROM and provide search capabilities.
+I wrote a complete search engine in JavaScript so it could run in a browser.",1,31,0,,,,,
+138,2023-02-20 04:14:05+00:00,ylecun,"@gemhodlr Oh, I don't have a crypto bro circle, thankfully.
+Just random people making comments on my tweets.",3,7,0,,,,,
+139,2023-02-20 04:05:51+00:00,ylecun,"1. Assembly
+2. Basic
+3. Fortran
+4. Pascal
+5. Forth
+6. C
+7. Lisp
+8. C++
+9. Javascript
+10. Lua
+11. Python",118,627,39,,,,,
+140,2023-02-20 03:55:57+00:00,ylecun,"@McAllesterDavid @nlpnoah LLMs in their current form are stateless.
+Their ""state"" is entirely determined by the prompt, hence immaterial.",17,90,11,,,,,
+141,2023-02-19 22:29:44+00:00,ylecun,"Govt: I can assure you, we have top men working on it.
+Scientists: who?
+Govt: top .... men.",18,201,17,,,,,
+142,2023-02-19 22:26:15+00:00,ylecun,"@tdietterich You are most welcome, Tom.
+There is self-interest in this openness: a rising tide of AI progress lifts all boats.",2,30,1,,,,,
+143,2023-02-19 22:24:17+00:00,ylecun,@rao2z And our widely advertised openness caused Google to open up a bit more.,5,33,5,,,,,
+144,2023-02-19 20:43:55+00:00,ylecun,"@pfhgetty @DavidBensh Indeed. Although transformers arcitectures pre-trained with self-supervised learning have been *massively* deployed by both Meta &amp; Google for many applications, such as translation &amp; content moderation, filtering, &amp; ranking.
+The transition from research to product was very fast.",1,19,0,,,,,
+145,2023-02-19 20:39:31+00:00,ylecun,"Much of the world realized the existence and the potential impact of generative AI in the last few months with ChatGPT and StableDiffusion.
+But the AI R&amp;D community has been at it for several years.
+And venture investment for at least 2 years.",13,216,34,,,,,
+146,2023-02-19 20:03:27+00:00,ylecun,"@nimdoc I have a monochrome full frame (ASI6200MM), but that requires a filter wheel, which is not really usable with a RASA scope (the camera is in front of the window).
+I also have a color full frame (ASI6200MC) but it's defective. I get no red channel 😢",0,1,0,,,,,
+147,2023-02-19 19:54:37+00:00,ylecun,"@DavidBensh I said it's not particularly innovative in terms of the underlying science and technology and that other shops had similar tech in-house (Google &amp; Meta).
+I also said that chatGPT makes sh*t up and can be used as a writing assistant (text and code) but not much else atm.",4,79,2,,,,,
+148,2023-02-19 19:51:39+00:00,ylecun,@naivebaesian One gets exposed to a lot of different opinions on Twitter.,2,40,0,,,,,
+149,2023-02-19 19:49:17+00:00,ylecun,"@CClavius FAIR receives headcount, operating budget, &amp; computing investment.
+It's a bad idea to link research funding to revenue impact for 2 reasons:
+(1) the impact is indirect, often months or years after the research
+(2) it gives an incentive to work on incremental short-term projects.",2,16,1,,,,,
+150,2023-02-19 19:07:58+00:00,ylecun,"@CClavius For FAIR, the value comes from projects with product groups to create new products and services or improve existing ones.
+This pays for research several times over.",2,25,1,,,,,
+151,2023-02-19 19:02:00+00:00,ylecun,"Crypto bro: AI labs should stop publishing useless papers and make products that increase shareholder value.
+Me: There would be no new product without the research published in those papers. New products aren't pulled out of thin air, unlike cryptocurrency value.",100,2554,259,,,,,
+152,2023-02-19 18:31:44+00:00,ylecun,"@notbyintent Lots of light pollution, hence the use of a narrow-band filter.
+No dome. https://t.co/pqfOr6pvfv",2,5,0,,,,,
+153,2023-02-19 17:26:29+00:00,ylecun,"@rubenxela Les pires sont:
+- les cassandres promettant l'apocalypse,
+- les illuminés promettant monts et merveilles
+- ceux qui critiquent, deblatèrent sur des limitations que tout le monde connait, et prétendent avoir ""la solution"" alors qu'ils n'ont absolument jamais rien contribué.",0,1,0,,,,,
+154,2023-02-19 16:17:24+00:00,ylecun,"@Gregdt1 Pas besoin d'aller en Chine.
+L'entreprise française Haffner Energy transforme les huiles usées en hydrogène et biofuel.
+https://t.co/fHAt4VBAVc",0,2,0,,,,,
+155,2023-02-19 15:49:23+00:00,ylecun,@elonmusk @MKBHD Just use WhatsApp 😁,11,141,3,,,,,
+156,2023-02-19 15:41:43+00:00,ylecun,"@taneemishere @SebastianSeung Don't worry. I'm not afraid.
+I'm merely quoting HAL9000 from ""2001: A Space Odyssey"" being afraid of ""dying"" as his memory modules are slowly being disconnected one by one.",0,3,0,,,,,
+157,2023-02-19 15:17:34+00:00,ylecun,@Aapef Un script PyTorch fait maison qui utilise des bibliothèques classiques pour aligner les photos.,2,0,0,,,,,
+158,2023-02-19 15:16:11+00:00,ylecun,"@other_musings Light pollution is horrible in my NJ suburb.
+So I use a narrowband filter that only lets through 4 wavelengths that many nebulae emit (ionized hydrogen alpha &amp; beta, oxygen III, and sulfur II).
+This was shot with a quad-band filter and a color camera.
+https://t.co/eLWoZzqtGl",0,3,0,,,,,
+159,2023-02-19 15:06:50+00:00,ylecun,"@MarioRascn6 Nice!
+My picture was shot with a narrowband filter to reduce the effects of light pollution (which is pretty awful in my NJ suburb).
+So it's more tenuous than yours.",1,1,0,,,,,
+160,2023-02-19 15:03:56+00:00,ylecun,"@dimfwi Wikipedia 😅
+Seriously, measuring such distances is pretty hard.
+
+https://t.co/PQJuW9b4IC",0,0,0,,,,,
+161,2023-02-19 15:01:46+00:00,ylecun,"@_mishy 1. Select the good shots.
+2. Align the shots and average them.
+3. Manually correct the colors in the resulting image.
+#1 is done with a custom Python script.
+#2 is done automatically by a custom PyTorch script.
+#3 is done manually in Gimp.
+It takes maybe 20 minutes overall.",0,7,0,,,,,
+162,2023-02-19 14:53:35+00:00,ylecun,"From @Marktechpost: a description of our latest work on Image Understanding Through Contextual Phrase Detection, by a team from NYU consisting of @ashkamath20, Sara Price, Jonas Pfeiffer, me, and @alcinos26.
+
+https://t.co/HdARCI49aB",3,84,13,,,,,
+163,2023-02-19 04:14:15+00:00,ylecun,"Eastern Veil nebula / NGC 6992
+2400 light-years away.
+Shot in June 2021 in my NJ backyard.
+Scope: Celestron RASA 11"", F2.2
+Camera: ZWO ASI2600MC
+Filter: Radian Triad quad narrow band.
+Exposures: 65 shots, 300 seconds each. https://t.co/iSoINvhoDF",20,563,16,,,,,
+164,2023-02-19 03:50:11+00:00,ylecun,"@jgvfwstone @alfcnz @y0b1byte @Adobe @Apple @googlechrome For that demo, I wrote a ""compiler"" that took the Lisp data structure for the ConvNet and produced a standalone C code  that could be compiled for the DSP32C board.
+The weights and the network topology were hardcoded as literals in the C program (no file system on the DSP board).",0,11,0,,,,,
+165,2023-02-19 03:45:08+00:00,ylecun,"@Marco20307855 @alfcnz @y0b1byte @Adobe @Apple @googlechrome I should say, the SunOS version had bits in assembly to make convolutions go fast.",0,3,0,,,,,
+166,2023-02-19 03:44:02+00:00,ylecun,"@Marco20307855 @alfcnz @y0b1byte @Adobe @Apple @googlechrome In C, using Emacs and gcc.
+The GNU tools had been ported to AmigaOS.",2,5,0,,,,,
+167,2023-02-19 03:42:32+00:00,ylecun,@DrYousefSharrab @alfcnz @y0b1byte @Adobe @Apple @googlechrome 3.5,0,2,0,,,,,
+168,2023-02-18 22:52:22+00:00,ylecun,"@JohnBlackburn75 @patrickmineault Yes, but slowly.
+No one uses transformers for segmentation. It's too inefficient.
+And it's impractical for video.",2,2,0,,,,,
+169,2023-02-18 22:49:02+00:00,ylecun,"@alfcnz @y0b1byte @Adobe @Apple @googlechrome Léon Bottou and I developed our neural net simulator SN on our Amiga 1000s with 512KB of RAM and no hard drive. Just floppies (in 1987).
+That's what I used to train the first ConvNets, after porting it to SunOS.",10,119,6,,,,,
+170,2023-02-18 21:54:49+00:00,ylecun,@SebastianSeung I'm a ..... fraaaaid.,3,12,1,,,,,
+171,2023-02-18 16:33:06+00:00,ylecun,"@patrickmineault Regarding weight sharing, or lack thereof in biology: you don't need weight sharing if the training is essentially self-supervised.
+Repeated feature detectors will naturally emerge from self-supervised learning because the local statistics of images are essentially stationary.",5,25,2,,,,,
+172,2023-02-18 16:31:06+00:00,ylecun,"@patrickmineault This combination of a ConvNet front-end and transformer back-end is akin to the DETR architecture, which is my favorite one for vision.
+https://t.co/mm8jeS99uK
+...",1,27,2,,,,,
+173,2023-02-18 16:29:04+00:00,ylecun,"@patrickmineault Well, at best, ConvNets would be a good model of the *foveal* portion of the ventral pathway until V4 or PIT.
+After that, the representation is more object based than retinotopic. So a transformer (which is equivariant to permutations) would seem more appropriate.
+...",2,63,7,,,,,
+174,2023-02-18 14:57:32+00:00,ylecun,@gauravontwit You got this exactly backward.,1,14,0,,,,,
+175,2023-02-18 14:55:35+00:00,ylecun,@chribeut Source: https://t.co/ihX6expw4T https://t.co/mJhkpDBy36,1,14,1,,,,,
+176,2023-02-18 14:43:05+00:00,ylecun,"@rakmasterg Whisper is a deep learning architecture that uses transformer blocks, like many DL systems these days, including LLMs.
+It's not technically an LLM, even if the decoder module generates tokens one by one auto-regressively, like a language model does.",1,9,0,,,,,
+177,2023-02-18 14:32:49+00:00,ylecun,"@99frqsnpxf @cwolferesearch In fact, it helps them.",1,5,0,,,,,
+178,2023-02-18 14:31:57+00:00,ylecun,"@SohoJoeEth Sadly, many ""investors"" share your opinion.
+Their focus on short-term profits blinds them to the mechanisms of innovation.
+This is why successful tech companies like Google and Meta have structured themselves to minimize pressure from Wall Street short-termism.",2,29,5,,,,,
+179,2023-02-18 14:16:48+00:00,ylecun,"@landsheapes @AlanMorte @OpenAI Running these things requires a lot of computation.
+It's not cheap.
+They can only run a deficit for so long.",0,1,0,,,,,
+180,2023-02-18 14:15:00+00:00,ylecun,"@_ash_ran @AlanMorte @OpenAI The metric to optimize is a combination of several criteria: user satisfaction, user well-being, impact on society, and yes revenue.
+It's always a trade-off. For example, you can show more ads to get more revenue in the short term, but you risk turning people away in the long run",1,0,0,,,,,
+181,2023-02-18 14:10:02+00:00,ylecun,"@_ash_ran @AlanMorte @OpenAI The positive impact of AI?
+Connecting people with each other &amp; with relevant content.
+Giving them a voice.
+Lowering language barriers.
+Giving access to information to people can't read or can't see.
+Helping people be creative.
+Connecting small businesses with potential customers.",2,1,0,,,,,
+182,2023-02-18 13:54:36+00:00,ylecun,"@Master4Cad This was a late-1986 Amiga 1000 with 512KB of RAM and no hard drive (just floppies), using Emacs and gcc.",0,1,0,,,,,
+183,2023-02-18 13:50:06+00:00,ylecun,@rasbt YMMV,0,4,0,,,,,
+184,2023-02-17 22:37:07+00:00,ylecun,"LLMs have a very superficial understanding of the physical world.
+An article by @Kantrowitz that draws on my session with him on his podcast.
+
+https://t.co/5Y03gLdkGD",11,90,24,,,,,
+185,2023-02-17 21:38:21+00:00,ylecun,@RMajdoddin @AlanMorte @OpenAI Because the company that owned it lost its market position and started losing money.,1,2,0,,,,,
+186,2023-02-17 21:25:22+00:00,ylecun,"@cwolferesearch You are wrong. 
+Many companies can take advantage of new research because of their position on the market.
+The fact that other companies can use the research too does not hurt them one bit.",3,45,2,,,,,
+187,2023-02-17 19:33:17+00:00,ylecun,"@amitmate2010 @AlanMorte @OpenAI Exactly.
+Microsoft also uses PyTorch.",1,9,0,,,,,
+188,2023-02-17 18:51:40+00:00,ylecun,"@SohoJoeEth This further confirms that you *really* have no idea what you're talking about.
+FAIR has had one of the largest returns on investment of any initiative at Meta.",2,42,0,,,,,
+189,2023-02-17 16:44:12+00:00,ylecun,"@SohoJoeEth You clearly have *zero* understanding of how science and technology progress.
+Without those papers that you call ""endless drivel"" and ""inconsequential"", there would be none of the ""actual usable products"" you say you want.",5,338,6,,,,,
+190,2023-02-17 16:39:55+00:00,ylecun,"@AlanMorte @OpenAI You can't sustain a significant research effort in a non-profit or a startup, which is why DeepMind sold itself to Google, OpenAI got money from Microsoft, and Anthropic got money from Google.",4,58,3,,,,,
+191,2023-02-17 16:36:28+00:00,ylecun,"@AlanMorte @OpenAI You can easily do that within a corporate research lab because your research can pay for itself several times over through product impact.
+This is the model used by Meta with FAIR.
+It is similar to the model used by Bell Labs, IBM Research, Xerox PARC, and MSR in the old days.",2,62,3,,,,,
+192,2023-02-17 16:32:45+00:00,ylecun,"@AlanMorte @OpenAI It's not necessarily about greed.
+If you want to have a large and positive impact, you need human and material resources.
+To attract the best scientists and engineers, you need to pay them well.
+To pay for computational resources, you need revenue or investment.",9,185,12,,,,,
+193,2023-02-17 16:08:15+00:00,ylecun,"FAIR played a key role in making the AI R&amp;D scene open. 
+Others followed. At least for a while.
+
+Now, OpenAI, DeepMind, &amp; perhaps even Google are clearly publishing &amp; open-sourcing considerably less.
+
+What will be the consequences on the progress of AI science and technology?",145,1646,193,,,,,
+194,2023-02-17 15:57:41+00:00,ylecun,@JonathanShafter Haha,0,2,0,,,,,
+195,2023-02-17 15:36:21+00:00,ylecun,"@ShuiwangJi It was called SN at the time (1987-1988).
+Then, there was another version of SN that had a tensor engine and a Lisp-to-C compiler, circa 1995.
+Then, the system was open-sourced as Lush in 2002.",0,5,0,,,,,
+196,2023-02-17 15:32:55+00:00,ylecun,"@AndreTI That's the ""incredible"" part.",2,12,0,,,,,
+197,2023-02-17 15:30:41+00:00,ylecun,"@nojvek Backprop and reasoning are orthogonal concepts.
+You don't do reasoning instead of backprop.
+You use backprop to train a system that can reason.",1,17,0,,,,,
+198,2023-02-17 15:24:08+00:00,ylecun,"@wei_andrew Writing assistance is as useful and limited as driving assistance.
+And all for the same reasons.",1,13,1,,,,,
+199,2023-02-17 15:17:20+00:00,ylecun,"@relnox Yes, that horse.
+The same horse who, in 2015, claimed that AGI was just around the corner and needed to be regulated.",5,59,0,,,,,
+200,2023-02-17 14:55:25+00:00,ylecun,"Yes.
+The first time coding was in 1985, in FORTRAN on a PR1ME mini computer.
+2nd version in Pascal.
+3rd version in C on an Amiga.
+4th version in Lisp and C on a Sun workstation.
+So many times that I can't remember.",22,303,14,,,,,
+201,2023-02-17 14:49:35+00:00,ylecun,"Experts have known for years that current (auto-regressive) LLMs are
+- incredible
+- create bullshit
+- can be useful
+- are actually stupid
+- aren't actually scary",55,836,111,,,,,
+202,2023-02-17 14:43:47+00:00,ylecun,"A broad survey of published methods to ""augment"" Language Models so they can reason, plan, and use tools to elaborate their answers.
+Tools such as search engines, calculators, code interpreters, database queries, etc, can help LLMs produce factual answers.
+By @MetaAI - FAIR.",9,264,59,,,,,
+203,2023-02-17 14:35:39+00:00,ylecun,From the horse's mouth.,21,505,38,,,,,
+204,2023-02-17 14:31:17+00:00,ylecun,"Is RLHF sufficient for aligning LLMs with human values?
+My answer: no.",14,150,21,,,,,
+205,2023-02-17 14:30:25+00:00,ylecun,@NandoDF @danieldennett My short answer: no.,0,11,0,,,,,
+206,2023-02-17 13:38:47+00:00,ylecun,"@TonyZador IIRC Mark Raibert was at CMU at the time. Not MIT.
+You can recognize the brick pattern of the walls of the old CMU CS building.",0,27,0,,,,,
+207,2023-02-16 20:11:39+00:00,ylecun,"Exciting times to be involved in AI, as a founder, as an investor (like AIX Ventures), and as a scientist.",2,58,7,,,,,
+208,2023-02-16 18:44:47+00:00,ylecun,@NektariosAI Pretty accurate.,0,25,2,,,,,
+209,2023-02-16 18:39:54+00:00,ylecun,"@yacineaxya At least, Galactica never insulted anyone 😅",1,2,0,,,,,
+210,2023-02-16 15:00:16+00:00,ylecun,"More than a dataset, GenAug is a method for generating augmentations to new scenarios of existing robot behavior data.",1,53,7,,,,,
+211,2023-02-16 12:48:38+00:00,ylecun,New robotics dataset from @MetaAI - FAIR.,11,140,30,,,,,
+212,2023-02-15 15:15:23+00:00,ylecun,"My answer: no!
+Obviously.",27,100,4,,,,,
+213,2023-02-15 13:50:02+00:00,ylecun,"@CSProfKGD @sitzikbs Indeed, two separate patents.
+The 1st one was for ConvNets with strided convolutions.
+The 2nd one was for ConvNets with separate pooling/subsampling layers.
+In 1996, AT&amp;T spun off NCR and Lucent &amp; assigned the patents to NCR, which was commercializing the check reading systems.",0,13,0,,,,,
+214,2023-02-15 03:27:01+00:00,ylecun,"@cwolferesearch Not good enough, not soon enough.",1,14,0,,,,,
+215,2023-02-15 01:39:07+00:00,ylecun,"@AndreTI The space of possible answers is too large for this to have any hope of working.
+This is essentially what people use today and call RLHF.",3,13,1,,,,,
+216,2023-02-15 01:37:21+00:00,ylecun,"@verstaen @gassee Expectedly, my answer is hell no!",2,5,1,,,,,
+217,2023-02-15 01:36:38+00:00,ylecun,@iandanforth That's like throwing the baby with the bath water.,1,3,0,,,,,
+218,2023-02-15 01:35:56+00:00,ylecun,"@ayazdanb No, not even then.",0,6,0,,,,,
+219,2023-02-15 01:35:11+00:00,ylecun,@TSR119 You are not wrong.,0,1,0,,,,,
+220,2023-02-15 01:34:13+00:00,ylecun,@Jeff_Aronson Yes,1,1,0,,,,,
+221,2023-02-15 01:12:02+00:00,ylecun,"Excellent paper in which the word ""criti-hype"" is coined.
+Criti-hype designates the kind of academic and non-academic work that magnifies the imagined dangers of a new technology, feeding on and mirroring the hype from the advocates of said technology.
+
+https://t.co/aE85ZQNBYU",8,155,29,,,,,
+222,2023-02-15 00:20:55+00:00,ylecun,Will Auto-Regressive LLMs ever be reliably factual?,72,276,39,,,,,
+223,2023-02-14 23:00:16+00:00,ylecun,"@svlevine @IanOsband @_aidan_clark_ @CsabaSzepesvari Shouldn't that be ""learned control"" or ""control learning"" or even ""learning to control""?
+LTC has a ring to it, no?",1,7,1,,,,,
+224,2023-02-14 17:57:13+00:00,ylecun,"The big challenge for AI dialog systems over the next year or so is to make them factual, non-toxic, up to date, and capable of using tools like calculators,  databases, search engines, simulators, or in this case, a simple calendar with today's date.",61,869,132,,,,,
+225,2023-02-14 17:52:31+00:00,ylecun,"Fantastic talk on the reaction of media and the public to technological (r)evolutions, particularly AI, particularly generative AI.
+Oscillating between hype and criti-hype and the inevitable moral panics.
+@DrTechlash is my favorite person on the Interwebz today.",3,58,5,,,,,
+226,2023-02-14 17:29:44+00:00,ylecun,"@DrTechlash I like the word ""criti-hype"" and your analysis of that phenomenon.",2,6,0,,,,,
+227,2023-02-14 17:13:58+00:00,ylecun,"Une interview de la directrice de @MetaAI - FAIR (Fundamental AI Research).
+Les LLMs sont utiles, mais limités.
+Et leurs capacités ne sont pas surprenantes pour les chercheurs du domaine.",1,33,5,,,,,
+228,2023-02-14 17:08:13+00:00,ylecun,Tomorrow!,3,42,6,,,,,
+229,2023-02-14 12:21:03+00:00,ylecun,"@IanOsband @_aidan_clark_ @CsabaSzepesvari Whenever exploration is necessary, some RL results are useful.
+Whenever the objective is unknown, it must be evaluated through actions (one way to do so is to train what has come to be known as a ""reward model"").",1,1,0,,,,,
+230,2023-02-14 11:39:19+00:00,ylecun,"@IanOsband @_aidan_clark_ @CsabaSzepesvari I do not conflate RL with policy gradient.
+But I *do* complain when people conflate RL with black-box optimization.
+I also find strange that people use RL in situations where optimal control is applicable i..e. where you can construct or learn a model &amp; a differentiable objective",5,6,1,,,,,
+231,2023-02-14 02:11:57+00:00,ylecun,"@ASteckley @GaryMarcus My position has been clear &amp; unchanged.
+I have defended LLMs as writing aids. I still do.
+I have also said that LLMs are making stuff up.
+I said that this will not destroy society.
+I have also said that LLMs don't take us any closer to human-level AI.
+https://t.co/ZWO8VnvLH2",2,6,0,,,,,
+232,2023-02-13 19:35:47+00:00,ylecun,@notoriousdmm Because the space of possible wrong answers is gigantic.,1,2,0,,,,,
+233,2023-02-13 19:34:23+00:00,ylecun,@syamantics Good luck running a good LLM on anything smaller than a *big* GPU!,1,3,0,,,,,
+234,2023-02-13 19:31:50+00:00,ylecun,"@fintech06 I made no statement about the impact of LLM on society, other than to say that LLMs will not destroy society because they make stuff up.
+I sure hope I'm not underestimating *that*!",1,14,0,,,,,
+235,2023-02-13 19:29:31+00:00,ylecun,"@ShafronTom Transformer architectures trained with some sort of Self-Supervised Learning are probably part of the solution.
+But the special instance of it that we call (auto-regressive) LLMs are not.",1,4,0,,,,,
+236,2023-02-13 19:25:25+00:00,ylecun,"@rmz But they merely slow your descent.
+They don't make you fly.",0,3,0,,,,,
+237,2023-02-13 15:46:34+00:00,ylecun,"@bitcloud Yes, several months ago, as in May 2022, when I published this 60-page vision of a path towards Human-Level AI.
+
+https://t.co/7ZgRtLJoMw",5,55,5,,,,,
+238,2023-02-13 15:21:07+00:00,ylecun,"Scaling up auto-regressive LLMs will make them ascend to human-level AI as much scaling up parachutes will make them climb to the stratosphere.
+
+How's that for a corny metaphor?",53,473,41,,,,,
+239,2023-02-13 15:16:52+00:00,ylecun,RLHF is even more inefficient on trolls than it is on auto-regressive LLMs.,11,99,4,,,,,
+240,2023-02-13 15:13:29+00:00,ylecun,"@atomless Humanity has lived with ""beliefs of made-up nonsense"" delivered with ""authoritative bluster"" for millennia.
+It's called religion.",5,13,1,,,,,
+241,2023-02-13 14:42:49+00:00,ylecun,"@artemon Whatever ""reasoning"" an LLM built around a 50-stage transformer can do, it has to do it within 50 computational steps.
+Reasoning generally involves a variable and potentially very large number of steps.",9,61,6,,,,,
+242,2023-02-13 14:33:26+00:00,ylecun,@ShafronTom YMMV,0,2,0,,,,,
+243,2023-02-13 14:19:20+00:00,ylecun,@Kashten_dot [hint: they are wrong],0,3,1,,,,,
+244,2023-02-13 14:00:23+00:00,ylecun,"@Kashten_dot Non-n00bs say ""RLHF will fix this"", and lots of people with lots of money seem to believe them.",2,4,0,,,,,
+245,2023-02-13 13:58:54+00:00,ylecun,@deepconvonet You got yourself an idea for a startup.,0,11,0,,,,,
+246,2023-02-13 13:57:49+00:00,ylecun,"14. Unlike what the most acerbic critics of Galactica have claimed
+- LLMs *are* being used as writing aids.
+- They *will not* destroy the fabric of society by causing the mindless masses to believe their made-up nonsense.
+- People will use them for what they are helpful with.",24,281,29,,,,,
+247,2023-02-13 13:41:00+00:00,ylecun,"13. Why do LLMs appear much better at generating code than generating general text?
+Because, unlike the real world, the universe that a program manipulates (the state of the variables) is limited, discrete, deterministic, and fully observable.
+The real world is none of that.",18,610,80,,,,,
+248,2023-02-13 13:37:29+00:00,ylecun,"@implisci Code generation is easier because, unlike the real world, the underlying reality of code is simple, discrete, deterministic and fully observable.
+And there is a relatively small number of basic concepts that cover most of it.",4,80,7,,,,,
+249,2023-02-13 13:35:22+00:00,ylecun,@rahulyedida13 Absolutely not.,1,15,0,,,,,
+250,2023-02-13 13:34:58+00:00,ylecun,"@Sokiosque It saves a lot typing and may improve your style.
+Also relieves you from the fear of the white page.
+Not mentioning that it's a big help for non-native speakers and people who find writing painful.
+
+BUT your hands must remain on the keyboard at all times.",9,284,13,,,,,
+251,2023-02-13 13:23:29+00:00,ylecun,"12. Being clear that better system will be appearing, but they will be based on different principles. 
+They will not be auto-regressive LLMs.",6,226,21,,,,,
+252,2023-02-13 13:21:41+00:00,ylecun,"I have been consistent while:
+9. defending Galactica as a scientific writing aid.
+10. Warning folks that AR-LLMs make stuff up and should not be used to get factual advice.
+11. Warning that only a small superficial portion of human knowledge can ever be captured by LLMs.",7,304,30,,,,,
+253,2023-02-13 13:16:31+00:00,ylecun,"@arthur_spirling As a Frenchman, in whose country cheese and mustard are revered with quasi religious fervor, this is neither mustard nor cheese.",4,63,1,,,,,
+254,2023-02-13 13:05:24+00:00,ylecun,"6. Current LLMs should be used as writing aids, not much more.
+7. Marrying them with tools such as search engines is highly non trivial.
+8. There *will* be better systems that are factual, non toxic, and controllable. They just won't be auto-regressive LLMs.",14,475,45,,,,,
+255,2023-02-13 13:02:04+00:00,ylecun,"My unwavering opinion on current (auto-regressive) LLMs
+1. They are useful as writing aids.
+2. They are ""reactive"" &amp; don't plan nor reason.
+3. They make stuff up or retrieve stuff approximately.
+4. That can be mitigated but not fixed by human feedback.
+5. Better systems will come",112,3450,584,,,,,
+256,2023-02-12 22:30:55+00:00,ylecun,"Good article on LLMs at Forbes.
+
+The media are starting to agree with my much-criticized statements about LLMs.
+
+""LLMs as they exist today will never replace Google Search. Why not? In short, because today’s LLMs make stuff up.""
+
+https://t.co/Cngp2Zyisq",97,1233,204,,,,,
+257,2023-02-12 22:05:03+00:00,ylecun,"@Aaron_Silvas I'm used to being vilified for my positions.
+It's often temporary.",0,8,0,,,,,
+258,2023-02-12 22:02:25+00:00,ylecun,@SnarkyPixel_ No way in hell.,1,3,0,,,,,
+259,2023-02-12 22:00:02+00:00,ylecun,"@Abel_TorresM If you want the system to start from scratch and learn the world model while attempting to solve the problem, then you are in RL-land.
+But if you can learn the model in other ways, e.g. by observing other agents, then no need for RL.",1,2,0,,,,,
+260,2023-02-12 21:58:04+00:00,ylecun,"@Abel_TorresM If your world model is accurate, i.e. if it knows the map, and knows you need a key to open a door, then it's just planning. 
+In this case it is particularly simple because the state graph is small and the actions discrete.
+You could just use A* or something.",1,5,0,,,,,
+261,2023-02-12 21:48:24+00:00,ylecun,"@HarambeJamal @DavidSHolz Dude, you may not realize that the ""RL"" in ""RLHF"" has very little to do with RL and a lot to do with the age-old idea of Learning-to-Rank.",1,8,0,,,,,
+262,2023-02-12 21:38:22+00:00,ylecun,"Depressing?
+Writing assistance is the one thing auto-regressive LLMs are useful for.
+Let's use them for that and enjoy it.",28,524,54,,,,,
+263,2023-02-12 21:35:33+00:00,ylecun,LLMs really can't plan.,10,66,9,,,,,
+264,2023-02-12 18:51:24+00:00,ylecun,"@JrKibs No.
+Token-by-token auto-regressive LLM don't do any planning.",0,1,0,,,,,
+265,2023-02-12 18:46:24+00:00,ylecun,"@RiverRidley At Meta, RL also means Reality Labs.
+Hash collisions.",1,3,0,,,,,
+266,2023-02-12 18:45:50+00:00,ylecun,@DavidSHolz The main purpose of RL research should be to minimize the use of RL.,2,32,4,,,,,
+267,2023-02-12 18:45:11+00:00,ylecun,"@Abel_TorresM If you need to do planning, just do planning.
+No need for RL.
+That's optimal control if the state and/or action space is continuous.
+You only need RL for 2 things:
+(1) if your objective function is unknown
+(2) if your model of the world needs to be learned by taking actions.",2,22,0,,,,,
+268,2023-02-12 17:34:48+00:00,ylecun,Even I haven't been that harsh against RL.,12,95,8,,,,,
+269,2023-02-12 11:20:03+00:00,ylecun,@benedictevans I use Idagio.,3,16,1,,,,,
+270,2023-02-12 11:13:58+00:00,ylecun,"@francoisfleuret @paulg @peterboghossian Perhaps.
+But the point remains.",1,2,0,,,,,
+271,2023-02-12 10:51:45+00:00,ylecun,Planification &amp; learning is where AI is at.,7,90,9,,,,,
+272,2023-02-12 10:36:59+00:00,ylecun,@csabaveres That's a ridiculous oversimplification of what I said.,1,2,0,,,,,
+273,2023-02-12 10:31:20+00:00,ylecun,@shai_s_shwartz @MetaAI Nice.,0,2,0,,,,,
+274,2023-02-12 10:22:32+00:00,ylecun,Haha!,12,217,29,,,,,
+275,2023-02-11 13:00:18+00:00,ylecun,@maximeae https://t.co/njR1O0JAVS,1,1,0,,,,,
+276,2023-02-11 12:55:55+00:00,ylecun,"@mgubrud @Kantrowitz Actually, language occupies a tiny portion of the cortex: the Broca and Wernicke areas.
+And much of human knowledge, and *all* of animal knowledge, is entirely non linguistic.
+https://t.co/XK6SdxRGjy",2,1,0,,,,,
+277,2023-02-11 12:42:15+00:00,ylecun,"Spontaneous Q&amp;A (in English) about AI and creativity.
+Following my keynote at #WAICF",13,155,26,,,,,
+278,2023-02-11 12:38:02+00:00,ylecun,"@alrhemist @MetaAI @OpenAI You may not realize that without scientific and technological advances such as the ones described in this paper, there would be no products.
+
+Products do not just appear out of thin air.",2,21,0,,,,,
+279,2023-02-11 08:28:37+00:00,ylecun,"ToolFormer: an LLM that can use tools:
+Search engines, calculators, etc...
+From @MetaAI - FAIR.",13,400,69,,,,,
+280,2023-02-11 08:25:14+00:00,ylecun,"ToolFormer: LLMs that can teach themselves to use tools, like calculators, database queries, search engines,....
+From @MetaAI - FAIR.",19,994,162,,,,,
+281,2023-02-11 08:20:31+00:00,ylecun,"@lxbrun Agreed.
+But I don't believe the problems with LLMs are fixable within the current paradigm.
+The fix will require changing the paradigm so much that they will no-longer be LLMs.",1,7,0,,,,,
+282,2023-02-09 14:16:15+00:00,ylecun,"Merci @jnbarrot pour cet échange sur les grandes tendances de la recherche en IA, le rôle des partenariats public-privé, et la contribution de FAIR @MetaAI à la recherche ouverte et les logiciels open-source. 
+La France abrite un écosystème fécond qui nourrit les progrès. https://t.co/ySbM0gEUWv",6,87,9,,,,,
+283,2023-02-09 14:10:06+00:00,ylecun,"Un plaisir d'échanger avec @jnbarrot.
+
+Meta-FAIR contribue grandement à l'écosystème de la R&amp;D en IA en France.
+FAIR produit 10 doctorants par an en IA.
+
+Les meilleurs experts français (&amp; européens) en systèmes de dialogue et systèmes d'IA de grande taille sont à FAIR-Paris.",0,34,6,,,,,
+284,2023-02-09 09:11:31+00:00,ylecun,"@DankSlay69420 If you detect, segment, and name background surfaces as well as objects, it's called ""panoptic segmentation.""",0,1,0,,,,,
+285,2023-02-08 13:34:22+00:00,ylecun,"@i_am__Alono @doristsao Physical.
+Everything is a collective phenomenon emerging from simple component in interaction.
+This makes it possible to abstract away the details and describe reality at various levels of details and abstraction.",2,0,0,,,,,
+286,2023-02-08 13:30:45+00:00,ylecun,"@MinhaHwang There is the name of the function, and the name of the output of that function.",1,0,0,,,,,
+287,2023-02-08 13:26:28+00:00,ylecun,@tunguz Is it named after a common fruit?,8,136,1,,,,,
+288,2023-02-08 13:25:13+00:00,ylecun,"Yeah, why?
+Also true of restaurants.",33,171,1,,,,,
+289,2023-02-08 09:02:25+00:00,ylecun,"@killerstorm @DrHughHarvey Meta, Google, &amp; others have deployed large SSL-pretrained transformers for all these applications for years and for billions of users (content moderation, ranking, translation, etc).
+&gt;&gt; They are not LLMs &lt;&lt;
+It's confusing because the underlying technology is essentially the same.",1,3,0,,,,,
+290,2023-02-07 17:55:58+00:00,ylecun,"@chris_j_paxton I had made that point for Galactica, but that seemed to fall on deaf ears.
+
+As a non-native English speaker myself, writing technical papers in English was literally torture and I wish I had access to something like Galactica when started my career.",2,26,0,,,,,
+291,2023-02-07 17:51:12+00:00,ylecun,"@Phillips_M_G No.
+Because a generic chatbots can also be used to help write scientific papers (badly).
+Both are writing assistance devices (predictive keyboards on steroids).
+Both can save time.
+Both can make stuff up and require human supervision.",2,8,1,,,,,
+292,2023-02-07 17:47:01+00:00,ylecun,"A single task that subsumes object detection and language understanding.
+From #NYU.",5,95,11,,,,,
+293,2023-02-07 17:44:14+00:00,ylecun,More analysis of the varied public reception of AI tools from Big Tech and Small Tech.,18,76,7,,,,,
+294,2023-02-07 15:12:27+00:00,ylecun,"@killerstorm @DrHughHarvey LLM specifically designates models that generate text.
+There are tons of applications of large transformer architectures pre-trained with various forms of Self-Supervised Learning.
+But most of them are not LLMs.
+LLMs are a special case.",3,2,0,,,,,
+295,2023-02-07 15:09:05+00:00,ylecun,"@nj_tantan @DrHughHarvey The manner is often crisp, but also often wrong.",1,0,0,,,,,
+296,2023-02-07 15:08:17+00:00,ylecun,"John Bridle, who coined the word ""softmax"", now wishes he had called it ""softargmax"".
+
+He coined the term while working on a paper published in 1989 in Neural Computation in which he describes the ""alphanet"" model that makes a hidden Markov model look like a recurrent neural net.",8,154,7,,,,,
+297,2023-02-07 15:03:48+00:00,ylecun,"@no_reward_for_u @doristsao Stuart Geman, his brother.",0,1,0,,,,,
+298,2023-02-07 15:01:50+00:00,ylecun,@DevDminGod That's pretty much what people thought in the 1950s,0,14,0,,,,,
+299,2023-02-07 15:01:22+00:00,ylecun,@CClavius Indeed.,0,3,0,,,,,
+300,2023-02-07 15:01:04+00:00,ylecun,@SujithK08852029 It says more about the inadequacy of the tests than about the adequacy of ChatGPT.,3,51,3,,,,,
+301,2023-02-07 15:00:15+00:00,ylecun,@crypto1o1_karim Yes.,1,1,0,,,,,
+302,2023-02-07 14:59:49+00:00,ylecun,@cichuck But they are wrong.,3,13,0,,,,,
+303,2023-02-07 14:59:36+00:00,ylecun,@odedbendov I'm not saying that predictive typing is useless!,1,9,0,,,,,
+304,2023-02-07 14:57:43+00:00,ylecun,"@ChrSzegedy Just like driving assistance for cars.
+It's not fully autonomous but it's still useful.",1,35,0,,,,,
+305,2023-02-07 13:16:48+00:00,ylecun,"@doristsao The exact quote is ""the world is compositional or there is a god"", and I got it from Stuart Geman.",11,93,6,,,,,
+306,2023-02-07 13:14:27+00:00,ylecun,@KrzakalaF @deliprao The distribution that minimizes the free energy.,1,3,0,,,,,
+307,2023-02-07 13:13:11+00:00,ylecun,@KrzakalaF @deliprao Gibbs-Boltzmann distribution.,1,5,0,,,,,
+308,2023-02-07 13:12:04+00:00,ylecun,@DrHughHarvey Typing.,17,265,11,,,,,
+309,2023-02-07 13:10:16+00:00,ylecun,"@deliprao It's just history.
+Even John Bridle who coined the name wishes it were called softargmax",0,38,1,,,,,
+310,2023-02-07 07:37:18+00:00,ylecun,"@patricksamy Pretty much.
+And those brain areas are pretty small.
+
+What's missing is the back of the brain (perception, motor control), the entire front (reasoning, planing), the bottom (intrinsic motivation, emotions), and the inside (episodic memory).
+We just have small areas on the side.",1,20,0,,,,,
+311,2023-02-06 08:45:42+00:00,ylecun,"@gabriel_valu I don't have a negative view of ChatGPT.
+I have a *realistic* view of it.
+
+It's useful and fun.
+It's just not this royal path to human-level AI that some think it is.
+
+Also, it makes sh*t up.
+And that's not an opinion.
+That's a fact.",4,28,4,,,,,
+312,2023-02-06 08:30:25+00:00,ylecun,@rsalakhu @beenwrekt Perhaps an absence of intrinsic motivation for this task?,4,21,1,,,,,
+313,2023-02-05 23:42:34+00:00,ylecun,"@3DTOPO @alrhemist I never said LLMs were not useful.
+
+In fact, I have strongly argued that they *were* useful against a torrent of vitriol against FAIR's LLM called Galactica (designed to help scientific writing).
+
+No such vitriol against ChatGPT it seems, though it makes sh*t up just as often.",3,10,0,,,,,
+314,2023-02-05 23:35:45+00:00,ylecun,"Good piece by @Noahpinion about the limitations of LLMs :
+""Why does ChatGPT constantly lie?""
+
+https://t.co/GPMFEEur9r",33,241,49,,,,,
+315,2023-02-05 23:21:45+00:00,ylecun,"@3DTOPO @alrhemist The ""reality"" of a program, i.e. its state during execution, is discrete, small &amp; finite, fully observable, &amp; deterministic.
+The real world is none of that.
+
+Most programs conform to known templates. Real-world actions don't.",3,12,0,,,,,
+316,2023-02-05 23:11:47+00:00,ylecun,"@bboczeng It's the exact opposite.
+Thinking that scaling LLMs will lead to Human-level AI is like thinking that making a parachute bigger will allow to fly like a bird.
+Whereas we need to understand how bird wings generate lift.
+Then we can build gliders, airplanes, jets, helicopters...",16,185,11,,,,,
+317,2023-02-05 22:58:16+00:00,ylecun,"@MacGraeme42 @bradysimpson55 LLM specifically refers to architectures (transformers or not) trained to predict the next word.
+
+Transformers architectures pre-trained with some form of Self-Supervised Learning are a great tool, and likely to be used in all kinds of future AI systems.",3,9,0,,,,,
+318,2023-02-05 21:41:07+00:00,ylecun,"@csabaveres @andrewgwils Rachmaninoff merely prolonged a style he didn't invent to its apotheosis and inevitable doom.
+
+Stravinsky invented something completely new.",1,1,0,,,,,
+319,2023-02-05 21:36:40+00:00,ylecun,Haha! Not wrong.,15,183,5,,,,,
+320,2023-02-05 21:34:41+00:00,ylecun,"@OriolVinyalsML @elonmusk What I mean by LLM is:
+""A system trained to predict the next word, and used to produce the next word reactively &amp; stochastically""
+
+I do believe that large transformers trained with SSL are part of a solution and will still be around in 5 years.
+
+But LLMs as defined above won't.",2,33,4,,,,,
+321,2023-02-05 21:21:54+00:00,ylecun,"@MacGraeme42 @yannx0130 No. It's more complicated than that.
+https://t.co/7ZgRtLIQWY",2,3,0,,,,,
+322,2023-02-05 19:21:41+00:00,ylecun,@HugoMe Reinforcement Learning through Human Feedback: a technique to fine-tune dialog systems by having humans score multiple responses to a question.,1,15,0,,,,,
+323,2023-02-05 19:18:05+00:00,ylecun,"@yannx0130 Current LLMs cannot be trained on video.
+There is a large community of researchers attempting to design systems that can learn how the world works from video.
+It doesn't work yet.",5,13,0,,,,,
+324,2023-02-05 19:15:27+00:00,ylecun,@amang1221 @bradysimpson55 https://t.co/7ZgRtLJoMw,0,23,3,,,,,
+325,2023-02-05 19:12:39+00:00,ylecun,"@powerbottomdad1 @alrhemist An LLM.
+Or a somewhat-clueless software engineer.",1,24,1,,,,,
+326,2023-02-05 19:09:36+00:00,ylecun,@yannx0130 Regurgitating Python code does not require any understanding of a complex world.,4,36,2,,,,,
+327,2023-02-05 19:07:52+00:00,ylecun,"@zussini About 800 million neurons for cats, and about 2 billion for dogs (and parrots).",3,18,2,,,,,
+328,2023-02-05 19:06:48+00:00,ylecun,@benalsop Dogs have more than twice as many neurons as cats.,17,46,1,,,,,
+329,2023-02-05 19:06:07+00:00,ylecun,"@VladicaV @yudapearl No, they are not mutually exclusive.
+In fact, my proposal includes learning causal world model.",4,39,1,,,,,
+330,2023-02-05 19:04:07+00:00,ylecun,"@bradysimpson55 I'm not saying LLMs are not useful.
+They are.
+They just aren't on the path towards Human-Level AI.
+At least in their current form.",9,119,0,,,,,
+331,2023-02-05 19:00:07+00:00,ylecun,@alrhemist One can regurgitate Python code without any understanding of reality.,16,181,3,,,,,
+332,2023-02-05 18:34:01+00:00,ylecun,"Scientific debates on social media are like a human form of bidirectional RLHF.
+The person making the post gets feedback (good and bad).
+The commenters also get feedback, mostly when they are clueless or wrong.",24,203,12,,,,,
+333,2023-02-05 18:31:16+00:00,ylecun,"@cvill_win757 It's Sunday.
+Twitter debates are like a weekend hobby for me.",1,3,0,,,,,
+334,2023-02-05 18:25:09+00:00,ylecun,"Before we reach Human-Level AI (HLAI), we will have to reach Cat-Level &amp; Dog-Level AI.
+We are nowhere near that.
+We are still missing something big.
+LLM's linguistic abilities notwithstanding.
+A house cat has way more common sense and understanding of the world than any LLM.",431,4212,628,,,,,
+335,2023-02-05 18:14:10+00:00,ylecun,"@robertnridley1 @yoavgo HLAI designated a single system that can handle all (intellectual) tasks at least as well as most humans.
+By ""handling a task"" I mean accomplishing it as well as humans, or learning to accomplish it as quickly as humans.",0,0,0,,,,,
+336,2023-02-05 18:11:08+00:00,ylecun,"@ccaballeroh10 @yoavgo One thing is certain: cat-level, racoon-level, and dog-level AI will need to be reached before human-level AI.
+And we are still pretty far away from all of those.",0,2,0,,,,,
+337,2023-02-05 18:09:01+00:00,ylecun,"@PatrikMuncaster @yoavgo Human intelligence is more general than narrow AI systems, but still highly specialized.
+All intelligences (natural or artificial) are *necessarily* specialized to some extent.
+Hence, truly general intelligence is an unreachable goal.",1,1,0,,,,,
+338,2023-02-05 18:05:09+00:00,ylecun,@UpdatTheWeights @yoavgo Human Level AI,0,2,0,,,,,
+339,2023-02-05 15:53:09+00:00,ylecun,@j_u_le_s That's just Twitter.,0,4,0,,,,,
+340,2023-02-05 14:08:34+00:00,ylecun,Yes.,5,76,14,,,,,
+341,2023-02-05 11:24:08+00:00,ylecun,"But this is not to say that LLMs in their current form are not useful. Or fun.
+They are.",12,148,3,,,,,
+342,2023-02-05 11:19:54+00:00,ylecun,"Why learning from text is insufficient for intelligence.
+
+https://t.co/XK6SdxRGjy",20,285,70,,,,,
+343,2023-02-05 11:16:54+00:00,ylecun,"My proposal for an architecture that reason, plan, and learn models of reality.
+
+Paper: https://t.co/7ZgRtLIQWY
+
+Talk: https://t.co/hwXwkLs1M1",8,222,37,,,,,
+344,2023-02-05 11:08:02+00:00,ylecun,@firthvansvic Both.,0,3,0,,,,,
+345,2023-02-05 11:05:45+00:00,ylecun,"@elonmusk @OriolVinyalsML If you want non-petty, substantial, in-depth debates, you are better off on Facebook 😉
+
+https://t.co/M4zp5CasUk",5,15,0,,,,,
+346,2023-02-05 10:41:06+00:00,ylecun,"To clarify:
+LLMs that auto-regressively &amp; reactively predict the next word are an off-ramp. They can neither plan nor reason.
+
+But SSL-pretrained transformers are clearly a component of the solution, within a system that can reason, plan, &amp; learn models of the underlying reality.",15,263,34,,,,,
+347,2023-02-05 10:36:26+00:00,ylecun,"@KieronScully @hughhowey I haven't moved my goals in years.
+But I have changed the path quite a few times, and probably will a few more times.
+https://t.co/7ZgRtLIQWY",0,7,1,,,,,
+348,2023-02-05 10:34:20+00:00,ylecun,"@yoavgo Well, I am 😉
+I think the concept of HLAI is both more sensible and more testable than the amorphous concept of AGI.",19,132,3,,,,,
+349,2023-02-05 10:32:23+00:00,ylecun,@andrewgwils Stravinsky somewhere?,4,17,2,,,,,
+350,2023-02-04 22:41:50+00:00,ylecun,"@elonmusk @OriolVinyalsML It's neither petty nor real beef.
+More like a minor divergence of opinions magnified into a non-existing beef.
+That's why we simultaneously love and hate Twitter.
+
+Still, I think LLMs are missing essential features for HLAI.
+And I doubt @OriolVinyalsML actually disagrees.",12,144,3,,,,,
+351,2023-02-04 19:07:25+00:00,ylecun,"The first big success story of Self-Supervised Learning is large-scale transformers pre-trained as denoising auto-encoders (BERT-style) for various downstream NLP tasks (translation, content filtering/ranking).
+LLMs are a special case of the above that became useful years later.",25,305,33,,,,,
+352,2023-02-04 19:00:07+00:00,ylecun,"@freddiekarlbom @traderyau No, but it could be considered dog-level intelligence, which is smarter than any LLM.",1,6,0,,,,,
+353,2023-02-04 18:59:09+00:00,ylecun,@JohnBlackburn75 @traderyau Your dog is way more intelligent than any LLM.,3,7,0,,,,,
+354,2023-02-04 18:57:24+00:00,ylecun,@OriolVinyalsML There will be no need.,5,74,2,,,,,
+355,2023-02-04 18:55:33+00:00,ylecun,"@DrTc666 Between 1996 &amp; 2002, I mostly worked on DjVu (image compression) &amp; wrote papers on our previous work on neural nets.
+Then in late 2001, the Internet bubble burst and AT&amp;T could no longer afford a research lab.
+Half of AT&amp;T Labs-Research was laid off.
+I managed to be one of them.",1,1,1,,,,,
+356,2023-02-04 18:52:14+00:00,ylecun,"@DrTc666 No completely true.
+In 1996, AT&amp;T spun off Lucent &amp; NCR.
+Our work on neural nets ended because my research group went to AT&amp;T, the engineering group to Lucent, &amp; the product group to NCR.
+My group went with AT&amp;T because the president of Lucent-Bell Labs *hated* machine learning.",1,3,0,,,,,
+357,2023-02-04 14:08:53+00:00,ylecun,"@IKoullias The ad campaign was in 1993, I think.
+I was at AT&amp;T from late 1988 to early 2002.",2,3,0,,,,,
+358,2023-02-04 13:58:13+00:00,ylecun,"@Mnemomeme @beenwrekt I spent one month at Xerox PARC as a summer intern in 1984.
+
+In the late 1990s, my DjVu team at AT&amp;T tried to collaborate with the rival Digipaper team at Xerox, but it didn't work out.",1,7,1,,,,,
+359,2023-02-04 13:53:50+00:00,ylecun,"@Youness_ELM There are lots of things that are very useful in practice, but not particularly relevant to progress towards HLAI.",1,6,1,,,,,
+360,2023-02-04 13:52:13+00:00,ylecun,"@Golisms One of the most interesting aspects of Cicero is its ability to plan.
+This ability to plan is a necessary component of autonomous intelligence and is completely absent from current LLMs.",7,54,8,,,,,
+361,2023-02-04 13:50:45+00:00,ylecun,"@FIQureshi1 Also useful as a tool, with interesting underlying concepts (like diffusion models), but definitely not on the highway towards HLAI.",0,4,1,,,,,
+362,2023-02-04 13:49:29+00:00,ylecun,"@OptimalBayes It's a shiny casino you see off the highway.
+You can take the off-ramp, spend your money in the casino, and perhaps even win.
+But you risk forgetting why you were on the highway in the first place.",2,47,7,,,,,
+363,2023-02-04 13:46:03+00:00,ylecun,"@mapto No.
+That paper claimed that LLMs &amp; other large-scale NLP systems were useless, dangerous, &amp; climate destroying.
+LLMs &amp; other NLP systems are useful, limited but only mildly dangerous, &amp; infinitesimal in terms of energy consumption.
+But they are simply not sufficient for HLAI.",10,43,3,,,,,
+364,2023-02-04 13:41:51+00:00,ylecun,"@rasbt LLMs are useful.
+Car accidents, not so much.",1,19,0,,,,,
+365,2023-02-04 13:40:34+00:00,ylecun,@DarrylMason Irrelevant.,0,14,0,,,,,
+366,2023-02-04 13:39:17+00:00,ylecun,"@c7ddfc Transformers, like ConvNets and a few other architectural concepts, are clearly useful, both as tools towards HLAI and as components of practical applications.
+
+Getting machines to learn intuitive physics is an important but yet unsolved problem.",3,10,3,,,,,
+367,2023-02-04 13:35:27+00:00,ylecun,@mvuksano https://t.co/7ZgRtLIQWY,0,3,1,,,,,
+368,2023-02-04 13:33:16+00:00,ylecun,@twishmay https://t.co/7ZgRtLIQWY,1,9,2,,,,,
+369,2023-02-04 13:32:30+00:00,ylecun,"@jpFromTlon You can't ""solve alignment"" until you know how the system that you want to align is built.
+And no one knows, at this time.",1,12,1,,,,,
+370,2023-02-04 13:30:43+00:00,ylecun,@19kunalverma https://t.co/7ZgRtLIQWY,1,3,2,,,,,
+371,2023-02-04 13:28:44+00:00,ylecun,@ferdousbhai Except for the people who believe human-level AI is just a matter of scaling up LLMs.,4,40,5,,,,,
+372,2023-02-04 13:27:37+00:00,ylecun,"@pcollellmir @lexfridman @ilyasut As I've said, Google and Meta have had ChatGPT-like things in their labs for quite a while.
+
+The only thing that the availability of ChatGPT has changed is that the general public now realizes what's possible.
+But the general public hasn't quite realized what's not possible yet.",1,12,3,,,,,
+373,2023-02-04 13:23:09+00:00,ylecun,@hughhowey That doesn't mean they are not useful.,3,70,4,,,,,
+374,2023-02-04 13:22:38+00:00,ylecun,"@hughhowey No.
+They are better than many humans on a few tasks.
+But they make very stupid mistakes of common-sense that a 4 year-old, a chimp, a dog, or a cat would never make.
+
+LLMs have a more superficial understanding of the world than a house cat.",25,457,44,,,,,
+375,2023-02-04 13:18:52+00:00,ylecun,@mpshanahan An off-ramp to oblivion 😂,1,33,1,,,,,
+376,2023-02-04 13:17:57+00:00,ylecun,"@ItIsFinch The primary question for a researcher is not which current system comes closest to HLAI but what's missing from current approaches and direction is most promising.
+
+Here is my view:
+https://t.co/7ZgRtLIQWY",0,4,0,,,,,
+377,2023-02-04 10:54:08+00:00,ylecun,"@smjain LLMs can be useful tools, as in Galactica, ChatGPT, Copilot, Grammarly, and the countless uses of SSL pre-trained transformers for content filtering, ranking, etc.
+
+But thinking that scaled-up LLMs will lead us to human-level AI is delusional.",12,234,27,,,,,
+378,2023-02-04 10:50:23+00:00,ylecun,@pcollellmir @lexfridman @ilyasut https://t.co/3n6TeeU1j5,2,32,4,,,,,
+379,2023-02-04 10:48:43+00:00,ylecun,"@traderyau Because language abilities are neither sufficient, nor even necessary, for intelligence.
+https://t.co/XK6SdxRGjy",12,143,22,,,,,
+380,2023-02-04 10:46:47+00:00,ylecun,@ItIsFinch You sense wrong.,1,18,0,,,,,
+381,2023-02-04 10:43:20+00:00,ylecun,"@DinoDvorak The proper comparison is between research organizations within these companies.
+
+AI research is about 600 people at Meta-FAIR, untold 1000s at Google, probably around 700 at DeepMind, perhaps around 1000 at Microsoft Research, &amp; perhaps 200 at OpenAI.",1,5,0,,,,,
+382,2023-02-04 10:32:50+00:00,ylecun,@LexMitchell @urigolan You can't develop innovative products if you don't have access to the scientific and technological breakthrough that underlies them.,1,2,0,,,,,
+383,2023-02-04 10:29:57+00:00,ylecun,"@BerndPorr @Raamana_ Very different.
+Google and Meta have policies of not suing anyone for infringing on their IP.
+
+Everyone can use PyTorch, memory networks, ConvNext, transformers, Self-Supervised Learning algorithms, etc for free.
+
+No licensing required.
+There would be no AI industry without this.",0,5,0,,,,,
+384,2023-02-04 10:24:23+00:00,ylecun,"@PSpagnou The $30 gadget that can beat you at chess ""outperforms human-level performance in some task"", yet is clearly not on the path towards Human-Level AI.",7,91,5,,,,,
+385,2023-02-04 10:19:09+00:00,ylecun,"AT&amp;T could make those wild claims with confidence because the underlying technology for all of these wonders was actually being developed at Bell Labs.
+(I was working there at the time).
+
+[The tablet-like ""fax from the beach"" thingy was an actual AT&amp;T product].",10,214,30,,,,,
+386,2023-02-04 10:15:23+00:00,ylecun,"@beenwrekt Then again, AT&amp;T made this video because the underlying technology for all of these wonders was being developed at Bell Labs...
+(I was there at the time).",5,150,8,,,,,
+387,2023-02-04 09:59:58+00:00,ylecun,@Ubongo9 People have been telling me this during my entire career.,1,43,0,,,,,
+388,2023-02-04 09:58:31+00:00,ylecun,@Ankitdew05 An off-ramp diverts you from the main path.,2,13,1,,,,,
+389,2023-02-04 09:57:55+00:00,ylecun,@MatjazLeonardis The essay is here: https://t.co/7ZgRtLIQWY,9,396,47,,,,,
+390,2023-02-04 09:39:22+00:00,ylecun,"On the highway towards Human-Level AI, Large Language Model is an off-ramp.",295,3040,340,,,,,
+391,2023-02-04 09:37:30+00:00,ylecun,@mraginsky We were hanging out in co-located sister labs in the early 1980s: the LDR and the CREA.,0,5,0,,,,,
+392,2023-02-03 18:03:33+00:00,ylecun,@jhoang314 s/Nets/Meta/,0,2,0,,,,,
+393,2023-02-03 18:02:44+00:00,ylecun,"@Raamana_ No one has anything to be ashamed of.
+And no one is trying to shame anyone.
+But someone is trying to explain that for  innovative product to come out of startups, large research labs have to practice open research and be *very* generous with their IP.",1,12,0,,,,,
+394,2023-02-03 13:45:10+00:00,ylecun,"@urigolan The very opposite.
+Like many research scientists, I would never work for an org that focuses on developing products in secrecy.",2,9,0,,,,,
+395,2023-02-03 13:43:21+00:00,ylecun,"@karger Google AI: untold thousands.
+DeepMind: 1500, perhaps half focusing on research.
+Meta-FAIR: 600, plus some folks from other orgs publishing on AI.
+OpenAI: 375, now largely focused on products and applied research.",0,5,0,,,,,
+396,2023-02-03 13:36:57+00:00,ylecun,"@djmalvarado That's because OpenAI being a startup, they've had to focus on high wow-factor flashy demos and product development, at the expense of research, so as to attract investments.
+Nothing wrong with that, if that's what you need to do.",2,20,0,,,,,
+397,2023-02-03 13:33:15+00:00,ylecun,"@Lingman Meta-FAIR has about 600 people.
+Some publications come out of other orgs though.
+DeepMind has about 1500 people, but the research core is smaller.",1,6,1,,,,,
+398,2023-02-03 13:23:47+00:00,ylecun,"@bill17472148 @DC__64 No.
+But the health of the AI R&amp;D scene does.
+I'm worried that more orgs that currently practice open research will follow OpenAI and (to some extent) DeepMind's example and go secretive.
+This would *considerably* slow down progress in the field.",1,10,0,,,,,
+399,2023-02-03 09:57:50+00:00,ylecun,"@DC__64 The expression you might have been looking for is ""go off the deep end"".
+I can reassure you that explaining the mechanisms of innovation does not make one descend into insanity.
+Twitter, however ....",1,15,0,,,,,
+400,2023-02-03 09:52:54+00:00,ylecun,@YashRathod_75 @DeepMind They have become a bit more secretive lately.,0,6,0,,,,,
+401,2023-02-03 09:49:25+00:00,ylecun,@tinkerteller @carlesgelada You are probably right.,1,1,0,,,,,
+402,2023-02-03 09:46:29+00:00,ylecun,"@hahatango Google &amp; Meta do not believe in patents.
+They file a few patents for defensive purpose.
+But their policy is to not attack others for infringing, unless they are attacked first.
+If Google &amp; Meta filed patents on everything and enforced them, the AI industry would simply not exist.",0,8,0,,,,,
+403,2023-02-03 08:55:04+00:00,ylecun,@3DTOPO They absolutely *do* use PyTorch.,1,1,0,,,,,
+404,2023-02-03 08:54:28+00:00,ylecun,"@carlesgelada You could try to measure the impact of every paper by looking up their number of citations in Google Scholar.
+That would be a major undertaking.",2,6,0,,,,,
+405,2023-02-03 08:51:28+00:00,ylecun,"@jhoang314 It's important to understand the dynamics of innovation.
+The reason why AI is progressing so fast is *precisely* because Nets &amp; Google are quite open about publishing research and code.
+Imagine if Google &amp; Meta filed tons of patents and started enforcing them...",3,39,1,,,,,
+406,2023-02-03 08:48:59+00:00,ylecun,"@jhoang314 But the fact is that most of the ideas, techniques and tools used by OpenAI came from Google, FAIR &amp; DeepMind.
+That's totally fine.
+But OpenAI products do not come out of a vacuum.
+Like every new product, they integrate existing technology from other orgs and add a coat of paint.",1,31,2,,,,,
+407,2023-02-03 08:44:55+00:00,ylecun,"@jhoang314 Hate? Where?
+We do work together.
+OpenAI uses PyTorch, which was developed at FAIR.
+PyTorch 2.0 uses the Triton back-end compiler which was developed at OpenAI.
+OpenAI use transformers and RLHF which originated at Google &amp; DeepMind.",3,53,6,,,,,
+408,2023-02-03 08:41:47+00:00,ylecun,"@rsdenijs @__dipam__ @JrKibs FAIR includes a group called NextSys that works on AI infra for research.
+Both FAIR and OpenAI use PyTorch as their DL framework.",0,2,0,,,,,
+409,2023-02-03 08:40:02+00:00,ylecun,"@rsdenijs @__dipam__ @JrKibs AI infra was a relatively small group within Meta AI, and was transferred to the main infra group almost a year ago.
+Much of their activity is on AI support in production.
+OpenAI relies on MS Azure for their production infra.",1,2,0,,,,,
+410,2023-02-02 19:05:33+00:00,ylecun,@__dipam__ @JrKibs FAIR has about 600 people.,5,25,0,,,,,
+411,2023-02-02 18:44:13+00:00,ylecun,"@maartengm A good chunk of publications from Meta come from FAIR-Paris.
+Many of them are on collaboration with Inria and universities through CIFRE resident PhD students.",6,64,3,,,,,
+412,2023-02-02 18:36:51+00:00,ylecun,@JrKibs You don't seem to know very far.,6,116,0,,,,,
+413,2023-02-02 18:02:22+00:00,ylecun,"@alisabets @johnjnay @TheEconomist @stateofaireport Without those publications and open-source code published by what you call ""paper mills"", there would be no OpenAI.",8,144,6,,,,,
+414,2023-02-02 17:59:11+00:00,ylecun,"Data on the intellectual contribution to AI from various research organizations.
+Some of organizations publish knowledge and open-source code for the entire world to use.
+Others just consume it.",209,2114,344,,,,,
+415,2023-02-01 18:23:35+00:00,ylecun,Blind map building.,2,55,4,,,,,
+416,2023-02-01 16:52:42+00:00,ylecun,"@hemanthkumarak That's false.
+Most of human knowledge and all of animal knowledge is completely non linguistic.",1,10,0,,,,,
+417,2023-02-01 16:48:38+00:00,ylecun,@SaraASolla @francoisfleuret You can always get the same effect as an explicit mean cancelation by manipulating the weight update formula of the following layer.,0,2,0,,,,,
+418,2023-02-01 12:37:53+00:00,ylecun,"@hemanthkumarak Yes, it matters.
+You can use LLMs to help you write.
+But you don't want to believe that you can let them research, think, and write.",3,28,0,,,,,
+419,2023-02-01 12:36:03+00:00,ylecun,"@alexandersumer It's much worse than that.
+LLMs *cannot* model reality in their current form.",4,13,1,,,,,
+420,2023-02-01 12:34:49+00:00,ylecun,@realkrats No. Realistic.,1,7,0,,,,,
+421,2023-02-01 12:33:42+00:00,ylecun,@andrewryann What do you think we've been doing?,2,12,0,,,,,
+422,2023-02-01 12:33:14+00:00,ylecun,"@Mingke Not just lower dimension, but also discretized.",0,6,0,,,,,
+423,2023-02-01 12:32:40+00:00,ylecun,"@erikkartman That's false.
+Some neural nets, with proper architectures, can think, plan, and infer.
+It's just that current LLMs can't.",4,17,2,,,,,
+424,2023-02-01 12:31:10+00:00,ylecun,@RachelVT42 Right.,2,1,0,,,,,
+425,2023-02-01 12:30:44+00:00,ylecun,"@studyouwei No.
+Learning from text absolutely does not enable LLMs to learn logic.
+And prompt engineering does not even begin to solve the problem.",12,31,0,,,,,
+426,2023-02-01 12:29:00+00:00,ylecun,"@tuxtedi No one is saying LLMs are not useful.
+I have forcefully said so myself, following the short-lived release of FAIR's Galactica.
+People crucified it because it could generate nonsense.
+ChatGPT does the same thing.
+But again, that doesn't mean they are not useful.",9,25,0,,,,,
+427,2023-02-01 08:11:48+00:00,ylecun,"Language abilities != Thinking.
+
+Or why LLMs such as ChatGPT can eloquently spew complete nonsense.
+Their grasp of reality is very superficial.
+
+https://t.co/rT2XhJB72G
+
+This piece in the Atlantic comments on a paper by the MIT Cognitive Science crowd https://t.co/Q4OPaMnUKW",114,1691,376,,,,,
+428,2023-02-01 07:12:49+00:00,ylecun,"@RealFade - The R done primarily at FAIR &amp; Google + DeepMind is what made chatGPT possible.
+- The D done at Meta &amp; Google around large transformers pre-trained with Self-Supervised Learning has been deployed in services for years (content moderation, ranking, translation....).
+Huge impact",8,51,1,,,,,
+429,2023-02-01 06:53:52+00:00,ylecun,"@silfen2 Essentially.
+Nice packaging.",7,29,0,,,,,
+430,2023-02-01 06:52:58+00:00,ylecun,"@__goldfinger The revolution started before that.
+You just didn't know about it.",1,44,0,,,,,
+431,2023-02-01 06:50:17+00:00,ylecun,"@dgreschler - deep learning
+- differentiable associative memory / attention circuits
+- transformer architectures
+- self-supervised learning
+All of which are used in modern natural language processing systems, including LLMs, including chatGPT, and many others.",3,48,3,,,,,
+432,2023-02-01 05:54:09+00:00,ylecun,"Not false.
+The story with any new technologies:
+- if it spreads quickly, it's because it's useful.
+- people learn to use the new tech for what it's useful.
+- they adapt so as not to get harmed by its limitations *if* they are well informed.
+- the young &amp; educated adapt faster.",12,165,25,,,,,
+433,2023-02-01 05:39:27+00:00,ylecun,"Interesting proposal of ""digital pharmacies"" which would distribute approved health-related apps.
+The app approval process would guarantee regulatory compliance while being independent of the Google and Apple app stores, which have conflicting interests.",1,59,11,,,,,

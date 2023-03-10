@@ -1,0 +1,618 @@
+
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../static/js/app_homepage.js"></script>
+        <script src="../static/js/particles_homepage.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>
+    </head>
+
+<style>
+
+html, body{
+    height: 100%;
+    margin:0px;
+    padding: 0px;
+    overflow:hidden;
+  }
+
+  #particles-js{
+    width: 100%;
+    height: 100%;
+    background: #111111;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+  }
+
+  .logo {
+    font-size: larger;
+    color: white;
+    font-weight: 700;
+    font-family:  'Times New Roman', Times, serif;
+    width: 30%;
+    height: 5%;
+    position: absolute;
+  }
+
+  h1 {
+    margin: 5px;;
+    padding:5px;
+    float:left;
+    color: #d02718;
+  }
+  
+  .nav {
+    max-width: 98%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.header {
+    width: 10%;
+    margin: 5px;
+  }
+
+.menu {
+    width: 40%;
+    float: right;
+    height: 5%;
+  }
+
+  .menu > li, .menu > a {
+    display:  inline-block; 
+    font-size: medium;
+  }
+
+  .menu a {
+    text-decoration: none;
+    display: black;
+    padding: auto;
+    transition: background-color 800ms ease, color 800ms ease;
+  }
+
+  .submenu a {
+    text-decoration: none;
+    display: black;
+    padding: auto;
+    transition: background-color 800ms ease, color 800ms ease;
+  }
+
+  .menu a:hover {
+    background-color: rgb(252,124,12);
+    color: #d02718;
+    font-size: large;
+  }
+
+  .submenu2 a:hover {
+    background-color: rgb(252,124,12);
+    color: #1849d0;
+    font-size: large;
+  }
+
+  .menu li {
+    position: relative;
+    width:  100px;	
+    height: 100%;
+  }
+
+  .submenu { 
+    position: absolute;
+    background-color: rgb(252,124,12);
+    width: auto;
+    left: 0;
+    display: none;
+    margin-top: 5px;
+    margin-right: 3px;
+  }
+
+.submenu2 {
+    position: absolute;
+    left: 100%;
+    width: auto;
+    top: 0;
+    background-color: rgb(32, 57, 86);
+    display: none;
+    /* margin: 10px; */
+}
+
+.menu li:hover > .submenu {
+    display: block;
+    animation: slideup 400ms ease;
+}
+
+.submenu li:hover > .submenu2 {
+    display: block;
+    animation: slideleft 400ms ease;
+}
+
+@keyframes slideup {
+    0% {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes slideup {
+    0% {
+        opacity: 0;
+        transform: translateX(25px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.label_a{
+	color: white;
+	font-size: large;
+}
+
+.label_b{
+	color: white;
+	font-size: large;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+  color:   black;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.input_id{
+  height: 30px;
+  margin: 10px;
+  width: 140px;
+  border-radius: 10px;
+  background-color: rgb(252,124,12);
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: medium;
+  float: left;
+  border:3px solid rgb(255, 51, 0);
+  
+}
+
+button.btn_class{
+	font-family: 'Times New Roman', Times, serif;
+	padding: 7px 20px !important;
+	margin: 0px 0px 0px 20px;
+	background-color: rgb(252,124,12);
+	box-shadow:inset 0px -1px 13px 1px #f5978e;
+	border-radius:10px;
+	border:3px solid rgb(255, 51, 0);
+	border-radius: 200px;
+	transition: 0.8s;
+  margin: 30px;
+  width: 100px;
+  height: 30px;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	float: left;
+	color: black;
+	cursor:pointer;
+}
+
+button.btn_class:hover{
+  background-color: rgba(255,255,255,0);
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+button.btn_class:hover a{
+ color: #ff3464;;
+}
+
+.content{
+  width: 90%;
+  height: 50%;
+  margin:  20px;
+  padding: 10px;
+
+}
+
+.inputs{
+  height: 100%;
+  width: 8%;
+  background-color: transparent;
+  /* margin: 20px; */
+  margin-top: 20px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding-top: 5px;
+  float: left;
+}
+
+.plot{
+  width: 80%;
+  height: 100%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  /* padding-top: 5%; */
+  float: right;
+}
+
+.pie_plot{
+  width: 30%;
+  height: 30%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  float: left;
+  margin-left: 30px;
+}
+
+</style>
+  <body>
+      <div class  = 'container'> 
+        <div id="particles-js"></div>
+            <header>
+                <nav>
+                    <h1 class = "logo" style="color: rgb(255, 51, 0)"> Crypto Dashboard </h1>
+                    <ul class = "menu">
+                        <li><a class = "label_a" href = "#" style="color: rgb(255, 51, 0)"> Algorithm </a>
+                            <ul class = "submenu">
+                                <li><a class = "label_a" href = "#"> Time Series </a>
+                                    <ul class = "submenu2">
+                                        <li><a class = "label_b"  href = "wiki\deeptcn"> Arima </a></li>
+                                        <li><a class = "label_b"  href = "wiki\nbeats"> Linear </a></li>
+                                    </ul>
+                                </li>
+                                <li><a class = "label_a"  href = "#"> Classification </a>
+                                    <ul class = "submenu2">
+                                      <li><a class = "label_b"  href = "#"> RF </a></li>
+                                      <li><a class = "label_b"  href = "#"> Cluster </a></li>
+                                  </ul>
+                                </li>
+                                <ul class = "submenu2">
+                                    <li><a class = "label_a"  href = "#"> Multicalss </a></li>
+                                    <li><a class = "label_a"  href = "#"> Transformer </a></li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <li><a class = "label_a" href = "#" style="color: rgb(255, 51, 0)"> Exchanges </a>
+                            <ul class = "submenu">
+                                <li><a class = "label_a"  href = "targeting\"> Binance  </a></li>
+                                <li><a class = "label_a"  href = "#"> Kucoin  </a></li>
+                            </ul>
+                        </li>
+                        <li><a class = "label_a" href = "#" style="color: rgb(255, 51, 0)"> News  </a>
+                            <ul class = "submenu">
+                                <li><a class = "label_a"  href = "timeseries\"> Twitter </a></li>
+                                <li><a class = "label_a"  href = "classification\"> Telegram </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>	
+        <div class  = 'content'> 
+          <div class = 'inputs'>
+            <P style="color: rgb(252,124,12); font-family:'Times New Roman', Times, serif; font-size:x-large"> Inputs </P>
+            <input class = 'input_id' name="coin name" id = 'coin_id' placeholder="Coin_name" >
+            <select name="based col"  class = 'input_id' id = "col_id" >
+              <option value="" disabled selected> column </option>
+              <option value="Close"> close </option>
+              <option value="High"> high </option>
+              <option value="Open"> open </option>
+              <option value="Low"> low </option>
+              <option value="Transaction volume"> volume </option>
+              <option value="Transaction amount"> amount </option>
+            </select>
+
+            <select name="times"  class = 'input_id' id = "time_id" >
+              <option value="" disabled selected> Time </option>
+              <option value="1min"> 1 minute </option>
+              <option value="3min"> 3 minutes </option>
+              <option value="5min">5 minutes</option>
+              <option value="15min">15 minutes</option>
+              <option value="30min">30 minutes</option>
+              <option value="1hour">1 hour</option>
+              <option value="2hour">2 hours</option>
+              <option value="4hour">4 hours</option>
+              <option value="6hour">6 hours</option>
+              <option value = "12hour"> 12 hours</option> 
+              <option value = "1day"> 1 day </option> 
+              <option value = "1week"> 1 week </option> 
+            </select>
+
+            <input class = 'input_id' name="days" id = 'days_id' placeholder=" days ">
+            <button class = 'btn_class' type = 'submit' id = 'coin_price' onclick="button_output()"> get data </button>
+          </div>
+          <div class = 'plot' id = 'timeseries_plot_id'></div>
+        </div>
+        <div class  = 'content'> 
+          <div class = 'pie_plot' id = "sharpe_plot">
+
+          </div>
+          <div class = 'pie_plot' id = "hrp_plot">
+
+          </div>
+          <div class = 'pie_plot' id = 'gray_plot'>
+
+          </div>
+        </div>
+      </div>
+  </body>
+    
+  <script>
+      particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 300,
+          "density": {
+            "enable": true,
+            "value_area":800
+          }
+        },
+        "color": {
+          "value": ["#aa73ff", "#f8c210", "#83d238", "#33b1f8"]
+        },
+        
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#fff"
+          },
+          "polygon": {
+            "nb_sides": 5
+          },
+          "image": {
+            "src": "img/github.svg",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "opacity": {
+          "value": 0.6,
+          "random": false,
+          "anim": {
+            "enable": false,
+            "speed": 1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 2,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 40,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 120,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "grab"
+          },
+          "onclick": {
+            "enable": false
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 140,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 400,
+            "size": 40,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 200,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
+    });
+
+ // ---------------------------------------------------------------
+
+ function pie_plot(values, label, id, title) {  
+  var data = [{
+    values : values,
+    labels : label,
+    type : "pie",
+    marker: {
+    color: '#e9e9e9'
+    }
+    }]
+
+    var layout = {
+      autosize: false,
+      title: {
+      text:`${title}`,
+      font: {
+        family: 'Times New Roman',
+        size: 20,
+        color: 'rgb(252,124,12)',
+      },
+      xref: 'paper',
+      x: 0.05,
+      },
+      margin: {
+      l: 20,
+      r: 5,
+      },
+      showlegend: true,
+      legend: {
+      traceorder: 'normal',
+      x: -5,
+      xanchor: 'right',
+      y: 1,
+      font: {
+        family: 'sans-serif',
+        size: 10,
+        color: 'rgb(252,124,12)'
+      },
+
+      },
+      height: 300,
+      width: 350,
+      paper_bgcolor: 'rgba(0,0,0,0)',
+      plot_bgcolor : 'rgba(0,0,0,0)'
+
+    };
+    Plotly.newPlot( `${id}`, data, layout);
+  }
+
+  function timeseries_plot(dates, data, coins_name) {
+    var list_dates = []
+    var traces = []
+
+    for (let index = 0; index < dates.length; index++) {
+        list_dates.push(dates[index])
+    }
+
+    for (let columns = 0; columns < coins_name.length; columns++) {
+        var one_data = []
+        for (let index = 0; index < data.length; index++) {
+            one_data.push(data[index][columns])
+        }
+        var trace = {
+          name : coins_name[columns],
+          x : list_dates,
+          y : one_data,
+          type : "scatter",
+        }
+        traces.push(trace)   
+      }
+    
+          var layout = {
+              xaxis : {
+                  showgrid: false,
+                  tickcolor: '#000',
+                  // title: 'Time',
+                  titlefont: {color: "rgb(252,124,12)",
+                              family: 'Times New Roman',
+                              size: 20},
+                              color : "rgb(252,124,12)"
+              },
+              yaxis :{
+                  showgrid: false,
+                  tickcolor: '#000',
+                  title: 'Value',
+                  titlefont: {color: "rgb(252,124,12)",
+                              family: 'Times New Roman',
+                              size: 20},
+                  color : "white"
+              },
+              title: {
+                  text : " coins prices ", 
+                  font: {
+                  family: 'Times New Roman',
+                  size: 20,
+                  color: 'rgb(252,124,12)',
+                  },
+                  },
+                  showlegend: true,
+                  legend: {
+                      font: {
+                      family: 'Times New Roman',
+                      size: 15,
+                      color: 'rgb(252,124,12)'
+                      },
+                  },
+                  height: 350,
+                  width: 1000,
+                  paper_bgcolor: 'rgba(0,0,0,0)',
+                  plot_bgcolor : 'rgba(0,0,0,0)'
+          }
+
+    // config = {staticPlot: true}
+    canvas = document.getElementById("timeseries_plot_id")
+    Plotly.newPlot(canvas, traces, layout) // ,{staticPlot: true},{scrollZoom: true}
+
+}
+
+  function button_output(params) {
+      var coins = document.getElementById("coin_id").value
+      var columns = document.getElementById("col_id").value
+      var time =  document.getElementById("time_id").value
+      var period = document.getElementById("days_id").value
+      
+      if (period && time && columns && coins){
+        send_data(coins, columns, time, period , function (data){
+          const coins_list = data.coins
+          const sharpe_w = data.sharpe_weights
+          const sharpe_n = data.sharpe_coins
+          const  hrp_n = data.hrp_coins
+          const hrp_w = data.hrp_weights
+          const gray_w = data.gray_weights
+          const gray_n = data.gray_coins
+
+          timeseries_plot( dates = data.real_date, data = data.real_data, coins_name = coins_list)
+          pie_plot(values = sharpe_w, label = sharpe_n, id = "sharpe_plot" , title = " Sharp ")
+          pie_plot(values = hrp_w, label = hrp_n , id = "hrp_plot" , title = " HRP ")
+          pie_plot(values = gray_w, label = gray_n , id = "gray_plot" , title = " Gray scale portfo ")
+          
+        })
+      }else{
+        alert(" inputs not complete")
+      }
+    }
+
+  function send_data(coins, column, time, period, callback) {
+      $.ajax({
+      url: 'homepage_plots',
+      type:'POST',
+      data : {'coins':coins, 'column' : column , "time" : time, 'period' : period},
+      
+      success: function(data){
+        callback(data);
+      }
+      })
+   }
+
+</script>
+</html>

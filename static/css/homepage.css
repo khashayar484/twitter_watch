@@ -1,0 +1,105 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .dropdown:hover > .dropdown-menu{
+    opacity: 1;
+  }
+  
+  .dropdown{
+    background-color: rgb(107, 0, 107);
+    color: aliceblue;
+    width: 250px;
+    font-size: xx-large;
+  }
+  
+  .navbar{
+    width:  500px;
+  }
+  
+  .dropdown-menu{
+    opacity: 0;
+    background-color: rgb(62, 2, 2);
+    width: 250px;
+    font-size: x-large;
+    align-items: center;
+  }
+  
+  .dropdown-item{
+    color: black;
+    transition: 0.2s linear;
+  }
+  
+  .dropdown-item:hover{
+    background-color: rgb(86, 4, 106);
+    color: rgb(3, 14, 0);
+  }
+  .navbar-brand{
+    font-size: xx-large;
+  }
+  
+  .container{
+      width: 100%;
+      height: 100%;
+      font-family:  'Quicksand', serif;
+      font-weight: bold;
+      font-size: 20px;
+      align-items: center;
+    }
+  
+  .row{
+    background-color: rgb(86, 4, 106);
+    width: 95%;
+    height: 500px;
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 10px;
+  }
+  
+  button.input_button{
+      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      padding: 7px 20px !important;
+      margin: 0px 0px 0px 20px;
+      background-color: #ff3464;
+      box-shadow:inset 0px -1px 13px 1px #f5978e;
+      border-radius:10px;
+      border:3px solid #d02718;
+      border-radius: 10px;
+      transition: 0.8s;
+      font-size:17px;
+      font-weight:bold;
+      text-decoration:none;
+      float: left;
+      color: #fff;
+      cursor:pointer;
+    margin: 20px;
+  }
+  
+  button.input_button:hover{
+    background-color: rgba(255,255,255,0);
+    cursor: pointer;
+    transition: 0.7s;
+  }
+  
+  button.input_button:hover a{
+   color: #ff3464;;
+  }
+  
+  table,thead, th, td {
+          table-layout: fixed;
+          border: 1px solid black;
+          width: 50%;
+          font-size: 15px;
+          /* color: rgb(8, 8, 8); */
+          color:white
+          /* background-color: #ff3464; */
+          }
