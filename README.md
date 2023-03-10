@@ -19,5 +19,4 @@ You can see the tweets and replies with respected date.
 <img src="https://user-images.githubusercontent.com/54494078/224447836-97e868f6-cac1-4627-bef7-4d2889cb99ef.png" width="1100" height="500" align = 'center' >
 <img src="https://user-images.githubusercontent.com/54494078/224447861-69d1d604-1ef7-406a-b513-95d21ed932b7.png" width="1100" height="500" align = 'center' >
 
-
-The above chart shows simple and weighted daily sentiment for each and account and respected replies with 3 differnet models the good rule of thumb to get account sentiment can be average of models.
+The above chart shows simple and weighted daily sentiment for each account and respected replies with 3 different models the good rule of thumb to get account sentiment can be the average of models.
