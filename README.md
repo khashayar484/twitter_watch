@@ -3,8 +3,8 @@
 This project aims to get Twitter automatically and update the sentiment and also the result was implemented in the local website: http://127.0.0.1:5000/
 
 ## Demo
-<img src="https://user-images.githubusercontent.com/54494078/224529951-9eb0c8cf-eae4-4030-a4bd-be3c6fca57e8.mp4" width="1500" height="500" align = 'center' >
-
+<!-- <img src= width="1500" height="500" align = 'center' > -->
+"https://user-images.githubusercontent.com/54494078/224529951-9eb0c8cf-eae4-4030-a4bd-be3c6fca57e8.mp4"
 
 ## users and replies 
 <img src="https://user-images.githubusercontent.com/54494078/224446859-23c36358-3d55-4c71-9bfd-595d29749833.png" width="1100" height="500" align = 'center' >
